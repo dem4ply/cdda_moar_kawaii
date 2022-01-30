@@ -1,19 +1,24 @@
 [
     {
-        "armor_data": {
-            "coverage": 100,
-            "covers": [
-                "leg_l",
-                "leg_r",
-                "torso",
-                "arm_l",
-                "arm_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 100,
+                "covers": [
+                    "leg_l",
+                    "leg_r",
+                    "torso",
+                    "arm_l",
+                    "arm_r"
+                ],
+                "encumbrance": [
+                    10,
+                    20
+                ]
+            }
+        ],
         "category": "armor",
         "color": "green",
         "description": "The standard maid uniform may not be enough to survive in this dangerous new world. This improved version, while still appearing cute and frilly on the outside, actually conceals an advanced armor liner and climate control systems to better endure even the harshest environments.",
-        "encumbrance": 10,
         "environmental_protection": 5,
         "flags": [
             "VARSIZE",
@@ -29,7 +34,6 @@
             "cotton"
         ],
         "material_thickness": 4,
-        "max_encumbrance": 20,
         "name": "Cute Maid Uniform LSS-PRO (off)",
         "pocket_data": [
             {
@@ -129,17 +133,19 @@
         }
     },
     {
-        "armor_data": {
-            "coverage": 25,
-            "covers": [
-                "head"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 25,
+                "covers": [
+                    "head"
+                ],
+                "encumbrance": 2
+            }
+        ],
         "category": "armor",
         "charges_per_use": 1,
         "color": "white",
         "description": "One of the most important parts of the maid unifrom is the headdress. This one contains an electrical thermal system powedered using batteries. It lets you feel like a maid despite how it looks.",
-        "encumbrance": 2,
         "flags": [
             "VARSIZE",
             "FANCY",
@@ -201,17 +207,19 @@
         "warmth": 80
     },
     {
-        "armor_data": {
-            "coverage": 100,
-            "covers": [
-                "head"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 100,
+                "covers": [
+                    "head"
+                ],
+                "encumbrance": 5
+            }
+        ],
         "category": "armor",
         "charges_per_use": 1,
         "color": "white",
         "description": "A maid must maintain her pride and attends to her duties, no matter how harsh the situation or environment. The headdress is not just a piece of the uniform, it's a symbol of a maid's pride.",
-        "encumbrance": 5,
         "environmental_protection": 5,
         "flags": [
             "VARSIZE",
@@ -297,12 +305,14 @@
     },
     {
         "ammo": "battery",
-        "armor_data": {
-            "coverage": 75,
-            "covers": [
-                "eyes"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 75,
+                "covers": [
+                    "eyes"
+                ]
+            }
+        ],
         "color": "cyan",
         "description": "These advanced glasses are not only capable of functioning as night vision or infared scanners, but protects against bright flashes, can withstand chemical corrosion, and can even completely block light for sleeping in bright places.",
         "environmental_protection": 6,
@@ -428,16 +438,18 @@
         }
     },
     {
-        "armor_data": {
-            "coverage": 85,
-            "covers": [
-                "mouth"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 85,
+                "covers": [
+                    "mouth"
+                ],
+                "encumbrance": 4
+            }
+        ],
         "category": "clothing",
         "color": "light_gray",
         "description": "A scarf with a cute pattern.",
-        "encumbrance": 4,
         "environmental_protection": 3,
         "flags": [
             "OUTER",
@@ -463,13 +475,15 @@
         "weight": "100 g"
     },
     {
-        "armor_data": {
-            "coverage": 45
-        },
+        "armor": [
+            {
+                "coverage": 45,
+                "encumbrance": 2
+            }
+        ],
         "category": "clothing",
         "copy-from": "kawaii_scarf",
         "description": "A scarf with a cute pattern.",
-        "encumbrance": 2,
         "flags": [
             "OUTER",
             "ALLOWS_NATURAL_ATTACKS",
@@ -488,16 +502,18 @@
         "warmth": 15
     },
     {
-        "armor_data": {
-            "coverage": 25,
-            "covers": [
-                "mouth"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 25,
+                "covers": [
+                    "mouth"
+                ],
+                "encumbrance": 4
+            }
+        ],
         "category": "clothing",
         "color": "light_gray",
         "description": "\u304b\u308f\u3044\u3044\u67c4\u7269\u306e\u30b9\u30ab\u30fc\u30d5\u3067\u3059\u304c\u3001\u895f\u5143\u306b\u3057\u307e\u3044\u8fbc\u3093\u3067\u898b\u3048\u306a\u3044\u3088\u3046\u306b\u3057\u3066\u3044\u307e\u3059",
-        "encumbrance": 4,
         "environmental_protection": 3,
         "flags": [
             "OUTER",
@@ -688,22 +704,24 @@
         "ammo": [
             "maid_point"
         ],
-        "armor_data": {
-            "coverage": 65,
-            "covers": [
-                "torso",
-                "head",
-                "arm_l",
-                "arm_r",
-                "leg_l",
-                "leg_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 65,
+                "covers": [
+                    "torso",
+                    "head",
+                    "arm_l",
+                    "arm_r",
+                    "leg_l",
+                    "leg_r"
+                ],
+                "encumbrance": 10
+            }
+        ],
         "category": "clothing",
         "charges_per_use": 50,
         "color": "green",
         "description": "An elegant mantle to keep you warm when going outside. Use it to turn invisible. Consumes maid points.",
-        "encumbrance": 10,
         "environmental_protection": 3,
         "flags": [
             "OVERSIZE",
@@ -740,21 +758,29 @@
         "ammo": [
             "maid_point"
         ],
-        "armor_data": {
-            "coverage": 65,
-            "covers": [
-                "torso",
-                "head",
-                "arm_l",
-                "arm_r",
-                "leg_l",
-                "leg_r"
+        "armor": [
+            {
+                "coverage": 65,
+                "covers": [
+                    "torso",
+                    "head",
+                    "arm_l",
+                    "arm_r",
+                    "leg_l",
+                    "leg_r"
+                ],
+                "encumbrance": 10
+            }
+        ],
+        "artifact_data": {
+            "effects_worn": [
+                "AEP_INVISIBLE",
+                "AEP_STEALTH"
             ]
         },
         "category": "clothing",
         "color": "green",
         "description": "An elegant mantle to keep you warm when going outside. Use it to turn visible. It is currently on and consuming maid points.",
-        "encumbrance": 10,
         "environmental_protection": 3,
         "flags": [
             "OVERSIZE",
@@ -789,20 +815,25 @@
         "weight": "1175 g"
     },
     {
-        "armor_data": {
-            "coverage": 95,
-            "covers": [
-                "torso",
-                "arm_l",
-                "arm_r",
-                "leg_l",
-                "leg_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 95,
+                "covers": [
+                    "torso",
+                    "arm_l",
+                    "arm_r",
+                    "leg_l",
+                    "leg_r"
+                ],
+                "encumbrance": [
+                    6,
+                    11
+                ]
+            }
+        ],
         "category": "clothing",
         "color": "black",
         "description": "A classic maid outfit with a white apron, frills and a black one piece. It has some storage space thanks to the apron and side pockets, including space for throwing knives. Since it comes with bloomers, you can take off your underwear and not feel embarrassed about it!",
-        "encumbrance": 6,
         "environmental_protection": 1,
         "flags": [
             "VARSIZE",
@@ -815,7 +846,6 @@
             "cotton"
         ],
         "material_thickness": 4,
-        "max_encumbrance": 11,
         "name": {
             "str": "Victorian maid dress",
             "str_pl": "Victorian maid dresses"
@@ -852,20 +882,25 @@
         "weight": "800 g"
     },
     {
-        "armor_data": {
-            "coverage": 70,
-            "covers": [
-                "torso",
-                "arm_l",
-                "arm_r",
-                "leg_l",
-                "leg_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 70,
+                "covers": [
+                    "torso",
+                    "arm_l",
+                    "arm_r",
+                    "leg_l",
+                    "leg_r"
+                ],
+                "encumbrance": [
+                    5,
+                    10
+                ]
+            }
+        ],
         "category": "clothing",
         "color": "blue",
         "description": "A French maid dress in the modern style, black with a frilly white apron. Doesn't cover much past the thigh or shoulder.",
-        "encumbrance": 5,
         "flags": [
             "VARSIZE",
             "SUPER_FANCY",
@@ -876,7 +911,6 @@
             "cotton"
         ],
         "material_thickness": 1,
-        "max_encumbrance": 10,
         "name": {
             "str": "French maid dress",
             "str_pl": "French maid dresses"
@@ -898,20 +932,25 @@
         "weight": "100 g"
     },
     {
-        "armor_data": {
-            "coverage": 0,
-            "covers": [
-                "torso",
-                "arm_l",
-                "arm_r",
-                "leg_l",
-                "leg_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 0,
+                "covers": [
+                    "torso",
+                    "arm_l",
+                    "arm_r",
+                    "leg_l",
+                    "leg_r"
+                ],
+                "encumbrance": [
+                    5,
+                    10
+                ]
+            }
+        ],
         "category": "clothing",
         "color": "blue",
         "description": "A French maid dress in the modern style, black with a frilly white apron. Doesn't cover much past the thigh or shoulder. Something seems off about it.",
-        "encumbrance": 5,
         "flags": [
             "VARSIZE",
             "SUPER_FANCY",
@@ -924,7 +963,6 @@
             "cotton"
         ],
         "material_thickness": 1,
-        "max_encumbrance": 10,
         "name": {
             "str": "strange French maid dress",
             "str_pl": "strange French maid dresses"
@@ -937,21 +975,26 @@
         "weight": "100 g"
     },
     {
-        "armor_data": {
-            "coverage": 100,
-            "covers": [
-                "leg_l",
-                "leg_r",
-                "head",
-                "torso",
-                "arm_l",
-                "arm_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 100,
+                "covers": [
+                    "leg_l",
+                    "leg_r",
+                    "head",
+                    "torso",
+                    "arm_l",
+                    "arm_r"
+                ],
+                "encumbrance": [
+                    8,
+                    17
+                ]
+            }
+        ],
         "category": "armor",
         "color": "black",
         "description": "A Victorian maid dress tailored specifically for post-cataclysm maids. The kevlar weave provides modest protection, but makes it somewhat harder to move in.",
-        "encumbrance": 8,
         "environmental_protection": 5,
         "flags": [
             "VARSIZE",
@@ -968,7 +1011,6 @@
             "cotton"
         ],
         "material_thickness": 4,
-        "max_encumbrance": 17,
         "name": {
             "str": "survivor Victorian maid dress",
             "str_pl": "survivor Victorian maid dresses"
@@ -1005,12 +1047,14 @@
         "weight": "2300 g"
     },
     {
-        "armor_data": {
-            "coverage": 100,
-            "covers": [
-                "mouth"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 100,
+                "covers": [
+                    "mouth"
+                ]
+            }
+        ],
         "category": "clothing",
         "color": "light_gray",
         "description": "A very long light cloth scarf, worn over the mouth for warmth.  With the extra length, it's enough to handle nonstandard facial features and accommodate your hands too.  Use it to loosen it if you get too warm.",

@@ -1,18 +1,23 @@
 [
     {
-        "armor_data": {
-            "coverage": 90,
-            "covers": [
-                "torso",
-                "arm_l",
-                "arm_r",
-                "leg_l",
-                "leg_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 90,
+                "covers": [
+                    "torso",
+                    "arm_l",
+                    "arm_r",
+                    "leg_l",
+                    "leg_r"
+                ],
+                "encumbrance": [
+                    8,
+                    16
+                ]
+            }
+        ],
         "color": "dark_gray",
         "description": "Centuries of maid sewing techniques have culminated in this pinnacle of maid outfit technology: an year-round outfit that can be transformed to fit any weather or season.",
-        "encumbrance": 8,
         "environmental_protection": 1,
         "flags": [
             "VARSIZE",
@@ -25,7 +30,6 @@
             "leather"
         ],
         "material_thickness": 4,
-        "max_encumbrance": 16,
         "name": "Cute Maid Adv. Uniform (summer form)",
         "pocket_data": [
             {
@@ -85,9 +89,11 @@
         "weight": "3800 g"
     },
     {
-        "armor_data": {
-            "coverage": 95
-        },
+        "armor": [
+            {
+                "coverage": 95
+            }
+        ],
         "copy-from": "kawaii_maid_dress_ex",
         "description": "Centuries of maid sewing techniques have culminated in this pinnacle of maid outfit technology: an year-round outfit that can be transformed to fit any weather or season.",
         "id": "kawaii_maid_dress_ex2",
@@ -102,19 +108,24 @@
         "warmth": 40
     },
     {
-        "armor_data": {
-            "coverage": 85,
-            "covers": [
-                "torso",
-                "arm_l",
-                "arm_r",
-                "leg_l",
-                "leg_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 85,
+                "covers": [
+                    "torso",
+                    "arm_l",
+                    "arm_r",
+                    "leg_l",
+                    "leg_r"
+                ],
+                "encumbrance": [
+                    5,
+                    10
+                ]
+            }
+        ],
         "color": "blue",
         "description": "A uniform with longer sleeves and skirt, better suited for winter.",
-        "encumbrance": 5,
         "flags": [
             "VARSIZE",
             "POCKETS",
@@ -125,7 +136,6 @@
             "cotton"
         ],
         "material_thickness": 2,
-        "max_encumbrance": 10,
         "name": "Cute Victorian Maid Clothes",
         "pocket_data": [
             {
@@ -165,19 +175,21 @@
         "weight": 350
     },
     {
-        "armor_data": {
-            "coverage": 85,
-            "covers": [
-                "torso",
-                "arm_l",
-                "arm_r",
-                "leg_l",
-                "leg_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 85,
+                "covers": [
+                    "torso",
+                    "arm_l",
+                    "arm_r",
+                    "leg_l",
+                    "leg_r"
+                ],
+                "encumbrance": 5
+            }
+        ],
         "color": "blue",
         "description": "A pure white wedding dress.",
-        "encumbrance": 5,
         "flags": [
             "VARSIZE",
             "FANCY"
@@ -196,19 +208,24 @@
         "weight": 400
     },
     {
-        "armor_data": {
-            "coverage": 85,
-            "covers": [
-                "torso",
-                "arm_l",
-                "arm_r",
-                "leg_l",
-                "leg_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 85,
+                "covers": [
+                    "torso",
+                    "arm_l",
+                    "arm_r",
+                    "leg_l",
+                    "leg_r"
+                ],
+                "encumbrance": [
+                    4,
+                    6
+                ]
+            }
+        ],
         "color": "blue",
         "description": "A nun's habit for serving God that gives off a sacred aura.",
-        "encumbrance": 4,
         "flags": [
             "VARSIZE",
             "FANCY"
@@ -218,7 +235,6 @@
             "cotton"
         ],
         "material_thickness": 1,
-        "max_encumbrance": 6,
         "name": "Cute Nun Habit",
         "pocket_data": [
             {
@@ -258,18 +274,20 @@
         "weight": 200
     },
     {
-        "armor_data": {
-            "coverage": 95,
-            "covers": [
-                "torso",
-                "arm_l",
-                "arm_r",
-                "head"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 95,
+                "covers": [
+                    "torso",
+                    "arm_l",
+                    "arm_r",
+                    "head"
+                ],
+                "encumbrance": 7
+            }
+        ],
         "color": "blue",
         "description": "A transparent raincoat made from very thin vinyl, very popular with maids who want to be fashionable in rainy weather. The material is thin enough that the entire coat can fold away into a pocket when not in use.",
-        "encumbrance": 7,
         "flags": [
             "VARSIZE",
             "POCKETS",
@@ -300,17 +318,19 @@
         "weight": 120
     },
     {
-        "armor_data": {
-            "coverage": 85,
-            "covers": [
-                "torso",
-                "arm_l",
-                "arm_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 85,
+                "covers": [
+                    "torso",
+                    "arm_l",
+                    "arm_r"
+                ],
+                "encumbrance": 4
+            }
+        ],
         "color": "blue",
         "description": "A transparent raincoat made from very thin vinyl, very popular with maids who want to be fashionable in rainy wather. The material is thin enough that the entire coat can fold away into a pocket when not in use.",
-        "encumbrance": 4,
         "flags": [
             "VARSIZE",
             "POCKETS",
@@ -342,19 +362,24 @@
         "weight": 120
     },
     {
-        "armor_data": {
-            "coverage": 85,
-            "covers": [
-                "torso",
-                "arm_l",
-                "arm_r",
-                "leg_l",
-                "leg_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 85,
+                "covers": [
+                    "torso",
+                    "arm_l",
+                    "arm_r",
+                    "leg_l",
+                    "leg_r"
+                ],
+                "encumbrance": [
+                    4,
+                    6
+                ]
+            }
+        ],
         "color": "blue",
         "description": "A school uniform worn by female students.",
-        "encumbrance": 4,
         "flags": [
             "VARSIZE",
             "FANCY"
@@ -364,7 +389,6 @@
             "cotton"
         ],
         "material_thickness": 1,
-        "max_encumbrance": 6,
         "name": "Cute School Girl Uniform",
         "pocket_data": [
             {
@@ -404,14 +428,16 @@
         "weight": 200
     },
     {
-        "armor_data": {
-            "coverage": 100,
-            "covers": [
-                "torso",
-                "leg_l",
-                "leg_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 100,
+                "covers": [
+                    "torso",
+                    "leg_l",
+                    "leg_r"
+                ]
+            }
+        ],
         "color": "blue",
         "description": "\u98fe\u308a\u6c17\u306e\u306a\u3044\u5973\u5b66\u751f\u306e\u6c34\u7740\u3067\u3059\u3002",
         "flags": [
@@ -434,14 +460,16 @@
         "weight": 100
     },
     {
-        "armor_data": {
-            "coverage": 100,
-            "covers": [
-                "torso",
-                "leg_l",
-                "leg_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 100,
+                "covers": [
+                    "torso",
+                    "leg_l",
+                    "leg_r"
+                ]
+            }
+        ],
         "color": "blue",
         "description": "\u98fe\u308a\u6c17\u306e\u306a\u3044\u5973\u5b66\u751f\u306e\u6c34\u7740\u3067\u3059\u3002",
         "flags": [
@@ -464,19 +492,24 @@
         "weight": 100
     },
     {
-        "armor_data": {
-            "coverage": 85,
-            "covers": [
-                "torso",
-                "arm_l",
-                "arm_r",
-                "leg_l",
-                "leg_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 85,
+                "covers": [
+                    "torso",
+                    "arm_l",
+                    "arm_r",
+                    "leg_l",
+                    "leg_r"
+                ],
+                "encumbrance": [
+                    4,
+                    6
+                ]
+            }
+        ],
         "color": "blue",
         "description": "\u770b\u8b77\u5e2b\u306e\u767d\u8863\u3067\u3059\u3002",
-        "encumbrance": 4,
         "flags": [
             "VARSIZE",
             "FANCY"
@@ -486,7 +519,6 @@
             "cotton"
         ],
         "material_thickness": 1,
-        "max_encumbrance": 6,
         "name": "\u30ca\u30fc\u30b9\u670d[kawaii]",
         "pocket_data": [
             {
@@ -526,13 +558,15 @@
         "weight": 200
     },
     {
-        "armor_data": {
-            "coverage": 15,
-            "covers": [
-                "leg_l",
-                "leg_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 15,
+                "covers": [
+                    "leg_l",
+                    "leg_r"
+                ]
+            }
+        ],
         "color": "white",
         "description": "Pure white panties, very breathable and comfortable even in summer.",
         "flags": [
@@ -554,12 +588,14 @@
         "weight": 32
     },
     {
-        "armor_data": {
-            "coverage": 15,
-            "covers": [
-                "torso"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 15,
+                "covers": [
+                    "torso"
+                ]
+            }
+        ],
         "color": "white",
         "description": "Pure white bra, very breathable and comfortable even in summer.",
         "flags": [
@@ -581,13 +617,15 @@
         "weight": 32
     },
     {
-        "armor_data": {
-            "coverage": 15,
-            "covers": [
-                "leg_l",
-                "leg_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 15,
+                "covers": [
+                    "leg_l",
+                    "leg_r"
+                ]
+            }
+        ],
         "color": "white",
         "description": "Panties with pink stripes.",
         "flags": [
@@ -609,12 +647,14 @@
         "weight": 32
     },
     {
-        "armor_data": {
-            "coverage": 15,
-            "covers": [
-                "torso"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 15,
+                "covers": [
+                    "torso"
+                ]
+            }
+        ],
         "color": "white",
         "description": "A bra with pink stripes.",
         "flags": [
@@ -636,13 +676,15 @@
         "weight": 32
     },
     {
-        "armor_data": {
-            "coverage": 15,
-            "covers": [
-                "leg_l",
-                "leg_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 15,
+                "covers": [
+                    "leg_l",
+                    "leg_r"
+                ]
+            }
+        ],
         "color": "white",
         "description": "Panties with green stripes.",
         "flags": [
@@ -664,12 +706,14 @@
         "weight": 32
     },
     {
-        "armor_data": {
-            "coverage": 15,
-            "covers": [
-                "torso"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 15,
+                "covers": [
+                    "torso"
+                ]
+            }
+        ],
         "color": "white",
         "description": "A bra with green stripes.",
         "flags": [
@@ -691,13 +735,15 @@
         "weight": 32
     },
     {
-        "armor_data": {
-            "coverage": 15,
-            "covers": [
-                "leg_l",
-                "leg_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 15,
+                "covers": [
+                    "leg_l",
+                    "leg_r"
+                ]
+            }
+        ],
         "color": "light_red",
         "description": "A simple black bikini bottom.",
         "flags": [
@@ -719,12 +765,14 @@
         "weight": 32
     },
     {
-        "armor_data": {
-            "coverage": 10,
-            "covers": [
-                "torso"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 10,
+                "covers": [
+                    "torso"
+                ]
+            }
+        ],
         "color": "light_red",
         "description": "A simple black bikini top.",
         "flags": [
@@ -745,13 +793,15 @@
         "weight": 32
     },
     {
-        "armor_data": {
-            "coverage": 7,
-            "covers": [
-                "leg_l",
-                "leg_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 7,
+                "covers": [
+                    "leg_l",
+                    "leg_r"
+                ]
+            }
+        ],
         "color": "pink",
         "description": "A flared miniskirt that is longer in the back.",
         "flags": [
@@ -771,15 +821,20 @@
         "weight": 11
     },
     {
-        "armor_data": {
-            "coverage": 60,
-            "covers": [
-                "torso"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 60,
+                "covers": [
+                    "torso"
+                ],
+                "encumbrance": [
+                    3,
+                    5
+                ]
+            }
+        ],
         "color": "light_gray",
         "description": "A modified utility vest with many pockets.",
-        "encumbrance": 3,
         "flags": [
             "VARSIZE",
             "WAIST"
@@ -789,7 +844,6 @@
             "cotton"
         ],
         "material_thickness": 2,
-        "max_encumbrance": 5,
         "name": "Cute Utility Vest",
         "pocket_data": [
             {
@@ -843,15 +897,17 @@
         "weight": 516
     },
     {
-        "armor_data": {
-            "coverage": 25,
-            "covers": [
-                "head"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 25,
+                "covers": [
+                    "head"
+                ],
+                "encumbrance": 2
+            }
+        ],
         "color": "white",
         "description": "One of the most important parts of the maid uniform. It is forbidden for maids to take it off, regardless of weather. Trained maids can channel their spirit into it to keep their heads warm during winter. (Toggle to change warmth)",
-        "encumbrance": 2,
         "flags": [
             "VARSIZE",
             "FANCY",
@@ -879,15 +935,17 @@
         "weight": 10
     },
     {
-        "armor_data": {
-            "coverage": 25,
-            "covers": [
-                "head"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 25,
+                "covers": [
+                    "head"
+                ],
+                "encumbrance": 2
+            }
+        ],
         "color": "white",
         "description": "One of the most important parts of the maid uniform. It is forbidden for maids to take it off, regardless of weather. Trained maids can channel their spirit into it to keep their heads warm during winter. (Toggle to change warmth)",
-        "encumbrance": 2,
         "flags": [
             "VARSIZE",
             "FANCY",
@@ -916,12 +974,14 @@
         "weight": 10
     },
     {
-        "armor_data": {
-            "coverage": 75,
-            "covers": [
-                "eyes"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 75,
+                "covers": [
+                    "eyes"
+                ]
+            }
+        ],
         "color": "cyan",
         "description": "A maid wearing these will never miss the smallest speck of dust, nor signs of their master's health. (Toggle to adjust position)",
         "environmental_protection": 1,
@@ -951,12 +1011,14 @@
         "weight": 30
     },
     {
-        "armor_data": {
-            "coverage": 75,
-            "covers": [
-                "eyes"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 75,
+                "covers": [
+                    "eyes"
+                ]
+            }
+        ],
         "color": "cyan",
         "description": "A maid wearing these will never miss the smallest speck of dust, nor signs of their master's health. (Toggle to adjust position)",
         "environmental_protection": 1,
@@ -986,12 +1048,14 @@
         "weight": 30
     },
     {
-        "armor_data": {
-            "coverage": 75,
-            "covers": [
-                "eyes"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 75,
+                "covers": [
+                    "eyes"
+                ]
+            }
+        ],
         "color": "cyan",
         "description": "A maid wearing these will never miss the smallest speck of dust, nor signs of their master's health. (Toggle to adjust position)",
         "environmental_protection": 1,
@@ -1021,12 +1085,14 @@
         "weight": 30
     },
     {
-        "armor_data": {
-            "coverage": 75,
-            "covers": [
-                "eyes"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 75,
+                "covers": [
+                    "eyes"
+                ]
+            }
+        ],
         "color": "cyan",
         "description": "A maid wearing these will never miss the smallest speck of dust, nor signs of their master's health. (Toggle to adjust position)",
         "environmental_protection": 1,
@@ -1056,12 +1122,14 @@
         "weight": 30
     },
     {
-        "armor_data": {
-            "coverage": 75,
-            "covers": [
-                "eyes"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 75,
+                "covers": [
+                    "eyes"
+                ]
+            }
+        ],
         "color": "cyan",
         "description": "A maid wearing these will never miss the smallest speck of dust, nor signs of their master's health.",
         "environmental_protection": 1,
@@ -1085,12 +1153,14 @@
         "weight": 30
     },
     {
-        "armor_data": {
-            "coverage": 75,
-            "covers": [
-                "eyes"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 75,
+                "covers": [
+                    "eyes"
+                ]
+            }
+        ],
         "color": "cyan",
         "description": "A maid wearing these will never miss the smallest speck of dust, nor signs of their master's health.",
         "environmental_protection": 1,
@@ -1114,12 +1184,14 @@
         "weight": 30
     },
     {
-        "armor_data": {
-            "coverage": 75,
-            "covers": [
-                "eyes"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 75,
+                "covers": [
+                    "eyes"
+                ]
+            }
+        ],
         "color": "cyan",
         "description": "A maid wearing these will never miss the smallest speck of dust, nor signs of their master's health.",
         "environmental_protection": 1,
@@ -1143,12 +1215,14 @@
         "weight": 30
     },
     {
-        "armor_data": {
-            "coverage": 75,
-            "covers": [
-                "eyes"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 75,
+                "covers": [
+                    "eyes"
+                ]
+            }
+        ],
         "color": "cyan",
         "description": "A maid wearing these will never miss the smallest speck of dust, nor signs of their master's health.",
         "environmental_protection": 1,
@@ -1172,12 +1246,14 @@
         "weight": 30
     },
     {
-        "armor_data": {
-            "coverage": 75,
-            "covers": [
-                "eyes"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 75,
+                "covers": [
+                    "eyes"
+                ]
+            }
+        ],
         "color": "cyan",
         "description": "A maid wearing these will never miss the smallest speck of dust, nor signs of their master's health.",
         "environmental_protection": 1,
@@ -1201,12 +1277,14 @@
         "weight": 30
     },
     {
-        "armor_data": {
-            "coverage": 65,
-            "covers": [
-                "head"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 65,
+                "covers": [
+                    "head"
+                ]
+            }
+        ],
         "color": "dark_gray",
         "description": "It's a warm hat made of cotton, coloured white to better match a maid uniform.",
         "id": "kawaii_hat_cotton",
@@ -1223,16 +1301,18 @@
         "weight": 78
     },
     {
-        "armor_data": {
-            "coverage": 95,
-            "covers": [
-                "head",
-                "mouth"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 95,
+                "covers": [
+                    "head",
+                    "mouth"
+                ],
+                "encumbrance": 2
+            }
+        ],
         "color": "dark_gray",
         "description": "'I refuse to cover up my cute face!' It's not as good against the cold as a normal balaclava, but it's a sacrifice necessary for the sake of fashion.",
-        "encumbrance": 2,
         "flags": [
             "VARSIZE",
             "SKINTIGHT"
@@ -1251,15 +1331,17 @@
         "weight": 40
     },
     {
-        "armor_data": {
-            "coverage": 70,
-            "covers": [
-                "head"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 70,
+                "covers": [
+                    "head"
+                ],
+                "encumbrance": 2
+            }
+        ],
         "color": "white",
         "description": "A beautiful but simple wedding veil.",
-        "encumbrance": 2,
         "flags": [
             "VARSIZE",
             "FANCY"
@@ -1278,15 +1360,17 @@
         "weight": 10
     },
     {
-        "armor_data": {
-            "coverage": 70,
-            "covers": [
-                "head"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 70,
+                "covers": [
+                    "head"
+                ],
+                "encumbrance": 2
+            }
+        ],
         "color": "white",
         "description": "A beautiful wedding veil with additional adornments.",
-        "encumbrance": 2,
         "flags": [
             "VARSIZE",
             "FANCY"
@@ -1305,15 +1389,17 @@
         "weight": 10
     },
     {
-        "armor_data": {
-            "coverage": 95,
-            "covers": [
-                "head"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 95,
+                "covers": [
+                    "head"
+                ],
+                "encumbrance": 2
+            }
+        ],
         "color": "white",
         "description": "A veil worn by those devoted to serving God.",
-        "encumbrance": 2,
         "flags": [
             "VARSIZE",
             "FANCY"
@@ -1332,15 +1418,17 @@
         "weight": 10
     },
     {
-        "armor_data": {
-            "coverage": 95,
-            "covers": [
-                "head"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 95,
+                "covers": [
+                    "head"
+                ],
+                "encumbrance": 2
+            }
+        ],
         "color": "white",
         "description": "\u770b\u8b77\u5e2b\u3092\u8c61\u5fb4\u3059\u308b\u5e3d\u5b50\u3067\u3059\u3002",
-        "encumbrance": 2,
         "flags": [
             "VARSIZE",
             "FANCY"
@@ -1469,15 +1557,20 @@
         "type": "ARMOR"
     },
     {
-        "armor_data": {
-            "coverage": 40,
-            "covers": [
-                "torso"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 40,
+                "covers": [
+                    "torso"
+                ],
+                "encumbrance": [
+                    5,
+                    30
+                ]
+            }
+        ],
         "color": "dark_gray",
         "description": "A huge rectangular hardcase. Normally used for carrying large musical instruments, sniper rifles, or sensitive electrical equipment.",
-        "encumbrance": 5,
         "flags": [
             "BELTED"
         ],
@@ -1486,7 +1579,6 @@
             "cotton"
         ],
         "material_thickness": 2,
-        "max_encumbrance": 30,
         "name": "Cute Hardcase",
         "pocket_data": [
             {
@@ -1505,15 +1597,20 @@
         "weight": "933 g"
     },
     {
-        "armor_data": {
-            "coverage": 20,
-            "covers": [
-                "torso"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 20,
+                "covers": [
+                    "torso"
+                ],
+                "encumbrance": [
+                    4,
+                    18
+                ]
+            }
+        ],
         "color": "dark_gray",
         "description": "A smaller version of the standard hardcase.",
-        "encumbrance": 4,
         "flags": [
             "BELTED"
         ],
@@ -1522,7 +1619,6 @@
             "cotton"
         ],
         "material_thickness": 2,
-        "max_encumbrance": 18,
         "name": "Cute Mini-Hardcase",
         "pocket_data": [
             {
@@ -1541,15 +1637,20 @@
         "weight": 650
     },
     {
-        "armor_data": {
-            "coverage": 20,
-            "covers": [
-                "torso"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 20,
+                "covers": [
+                    "torso"
+                ],
+                "encumbrance": [
+                    2,
+                    8
+                ]
+            }
+        ],
         "color": "dark_gray",
         "description": "A slimmer version of the hardcase.",
-        "encumbrance": 2,
         "flags": [
             "BELTED"
         ],
@@ -1558,7 +1659,6 @@
             "cotton"
         ],
         "material_thickness": 2,
-        "max_encumbrance": 8,
         "name": "Cute Slim Hardcase",
         "pocket_data": [
             {
@@ -1584,15 +1684,20 @@
         "type": "ARMOR"
     },
     {
-        "armor_data": {
-            "coverage": 5,
-            "covers": [
-                "leg_l"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 5,
+                "covers": [
+                    "leg_l"
+                ],
+                "encumbrance": [
+                    1,
+                    2
+                ]
+            }
+        ],
         "color": "dark_gray",
         "description": "A small storage purse that can be consealed beneath a skirt, held up using a garter band.",
-        "encumbrance": 1,
         "flags": [
             "WAIST",
             "WATER_FRIENDLY"
@@ -1602,7 +1707,6 @@
             "cotton"
         ],
         "material_thickness": 2,
-        "max_encumbrance": 2,
         "name": "Cute Garter Purse",
         "pocket_data": [
             {
@@ -1620,16 +1724,18 @@
         "weight": 250
     },
     {
-        "armor_data": {
-            "coverage": 75,
-            "covers": [
-                "foot_l",
-                "foot_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 75,
+                "covers": [
+                    "foot_l",
+                    "foot_r"
+                ],
+                "encumbrance": 3
+            }
+        ],
         "color": "dark_gray",
         "description": "A pair of frilly kneesocks. Its thick material keeps the wearer's legs warm.",
-        "encumbrance": 3,
         "flags": [
             "SKINTIGHT",
             "FANCY"
@@ -1648,13 +1754,15 @@
         "weight": 90
     },
     {
-        "armor_data": {
-            "coverage": 75,
-            "covers": [
-                "foot_l",
-                "foot_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 75,
+                "covers": [
+                    "foot_l",
+                    "foot_r"
+                ]
+            }
+        ],
         "color": "dark_gray",
         "description": "A pair of frilly kneesocks. Its thin enough to be slightly transparent when worn.",
         "flags": [
@@ -1675,18 +1783,20 @@
         "weight": 40
     },
     {
-        "armor_data": {
-            "coverage": 95,
-            "covers": [
-                "foot_l",
-                "foot_r",
-                "leg_l",
-                "leg_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 95,
+                "covers": [
+                    "foot_l",
+                    "foot_r",
+                    "leg_l",
+                    "leg_r"
+                ],
+                "encumbrance": 4
+            }
+        ],
         "color": "dark_gray",
         "description": "A pair of warm tights.",
-        "encumbrance": 4,
         "flags": [
             "SKINTIGHT",
             "FANCY"
@@ -1705,18 +1815,20 @@
         "weight": 200
     },
     {
-        "armor_data": {
-            "coverage": 95,
-            "covers": [
-                "foot_l",
-                "foot_r",
-                "leg_l",
-                "leg_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 95,
+                "covers": [
+                    "foot_l",
+                    "foot_r",
+                    "leg_l",
+                    "leg_r"
+                ],
+                "encumbrance": 4
+            }
+        ],
         "color": "dark_gray",
         "description": "A pair of warm tights.",
-        "encumbrance": 4,
         "flags": [
             "SKINTIGHT",
             "FANCY"
@@ -1735,16 +1847,18 @@
         "weight": 200
     },
     {
-        "armor_data": {
-            "coverage": 50,
-            "covers": [
-                "foot_l",
-                "foot_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 50,
+                "covers": [
+                    "foot_l",
+                    "foot_r"
+                ],
+                "encumbrance": 1
+            }
+        ],
         "color": "dark_gray",
         "description": "A pair of white socks normally worn by students.",
-        "encumbrance": 1,
         "flags": [
             "SKINTIGHT"
         ],
@@ -1762,13 +1876,15 @@
         "weight": 10
     },
     {
-        "armor_data": {
-            "coverage": 10,
-            "covers": [
-                "leg_l",
-                "leg_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 10,
+                "covers": [
+                    "leg_l",
+                    "leg_r"
+                ]
+            }
+        ],
         "color": "dark_gray",
         "description": "A black garter belt, designed to be worn with stockings.",
         "flags": [
@@ -1788,16 +1904,18 @@
         "weight": 10
     },
     {
-        "armor_data": {
-            "coverage": 60,
-            "covers": [
-                "foot_l",
-                "foot_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 60,
+                "covers": [
+                    "foot_l",
+                    "foot_r"
+                ],
+                "encumbrance": 2
+            }
+        ],
         "color": "dark_gray",
         "description": "Leather shoes designed to be worn with a maid uniform.",
-        "encumbrance": 2,
         "flags": [
             "FANCY"
         ],
@@ -1815,16 +1933,18 @@
         "weight": 500
     },
     {
-        "armor_data": {
-            "coverage": 60,
-            "covers": [
-                "foot_l",
-                "foot_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 60,
+                "covers": [
+                    "foot_l",
+                    "foot_r"
+                ],
+                "encumbrance": 2
+            }
+        ],
         "color": "dark_gray",
         "description": "A pair of brown loafers normally worn by students.",
-        "encumbrance": 2,
         "flags": [
             "FANCY"
         ],
@@ -1842,16 +1962,18 @@
         "weight": 400
     },
     {
-        "armor_data": {
-            "coverage": 90,
-            "covers": [
-                "foot_l",
-                "foot_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 90,
+                "covers": [
+                    "foot_l",
+                    "foot_r"
+                ],
+                "encumbrance": 6
+            }
+        ],
         "color": "dark_gray",
         "description": "Leather boots that can be worn with a wide range of outfits.",
-        "encumbrance": 6,
         "environmental_protection": 2,
         "flags": [
             "FANCY",
@@ -1871,16 +1993,18 @@
         "weight": 800
     },
     {
-        "armor_data": {
-            "coverage": 100,
-            "covers": [
-                "foot_l",
-                "foot_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 100,
+                "covers": [
+                    "foot_l",
+                    "foot_r"
+                ],
+                "encumbrance": 12
+            }
+        ],
         "color": "white",
         "description": "Pure white boots that only chosen maids are allowed to wear. They give the wearer a feeling of majesty.",
-        "encumbrance": 12,
         "environmental_protection": 10,
         "flags": [
             "FANCY",
@@ -1902,16 +2026,18 @@
         "weight": 600
     },
     {
-        "armor_data": {
-            "coverage": 100,
-            "covers": [
-                "foot_l",
-                "foot_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 100,
+                "covers": [
+                    "foot_l",
+                    "foot_r"
+                ],
+                "encumbrance": 7
+            }
+        ],
         "color": "white",
         "description": "Pure white heels that only chosen maids are allowed to wear. They give the wearer a feeling of majesty.",
-        "encumbrance": 7,
         "environmental_protection": 10,
         "flags": [
             "FANCY",
@@ -1933,16 +2059,18 @@
         "weight": 400
     },
     {
-        "armor_data": {
-            "coverage": 95,
-            "covers": [
-                "hand_l",
-                "hand_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 95,
+                "covers": [
+                    "hand_l",
+                    "hand_r"
+                ],
+                "encumbrance": 2
+            }
+        ],
         "color": "light_blue",
         "description": "\u63a7\u3048\u76ee\u306a\u30ec\u30fc\u30b9\u3067\u88c5\u98fe\u3055\u308c\u305f\u30e1\u30a4\u30c9\u3055\u3093\u306e\u624b\u888b\u3067\u3059\u3002",
-        "encumbrance": 2,
         "flags": [
             "WATER_FRIENDLY"
         ],
@@ -1985,20 +2113,30 @@
         "weight": 10
     },
     {
-        "armor_data": {
-            "coverage": 95,
-            "covers": [
-                "torso",
-                "arm_l",
-                "arm_r",
-                "leg_l",
-                "leg_r"
+        "armor": [
+            {
+                "coverage": 95,
+                "covers": [
+                    "torso",
+                    "arm_l",
+                    "arm_r",
+                    "leg_l",
+                    "leg_r"
+                ],
+                "encumbrance": [
+                    9,
+                    15
+                ]
+            }
+        ],
+        "artifact_data": {
+            "effects_worn": [
+                "AEP_DEX_UP"
             ]
         },
         "category": "clothing",
         "color": "brown",
         "description": "Women's servant clothes worn in Japanese cafes a long time ago. Essentially a white apron over a kimono.",
-        "encumbrance": 9,
         "environmental_protection": 1,
         "flags": [
             "VARSIZE",
@@ -2010,7 +2148,6 @@
             "cotton"
         ],
         "material_thickness": 4,
-        "max_encumbrance": 15,
         "name": {
             "str": "Jokyu dress",
             "str_pl": "Jokyu dresses"
@@ -2032,15 +2169,17 @@
         "weight": "1200 g"
     },
     {
-        "armor_data": {
-            "coverage": 85,
-            "covers": [
-                "foot_l",
-                "foot_r",
-                "leg_l",
-                "leg_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 85,
+                "covers": [
+                    "foot_l",
+                    "foot_r",
+                    "leg_l",
+                    "leg_r"
+                ]
+            }
+        ],
         "category": "clothing",
         "color": "white",
         "description": "A set of pure white stockings with garterbelt and panties, decorated with elegant lacing.",
@@ -2067,12 +2206,14 @@
         "weight": "90 g"
     },
     {
-        "armor_data": {
-            "coverage": 60,
-            "covers": [
-                "head"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 60,
+                "covers": [
+                    "head"
+                ]
+            }
+        ],
         "category": "clothing",
         "color": "white",
         "description": "A frilly white cap commonly used by maids.",
@@ -2095,12 +2236,14 @@
         "weight": "50 g"
     },
     {
-        "armor_data": {
-            "coverage": 0,
-            "covers": [
-                "head"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 0,
+                "covers": [
+                    "head"
+                ]
+            }
+        ],
         "category": "clothing",
         "color": "white",
         "description": "A frilly white headband commonly used by maids. Something seems off about it.",
@@ -2126,12 +2269,14 @@
         "weight": "50 g"
     },
     {
-        "armor_data": {
-            "coverage": 60,
-            "covers": [
-                "head"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 60,
+                "covers": [
+                    "head"
+                ]
+            }
+        ],
         "category": "clothing",
         "color": "white",
         "description": "A frilly white cap commonly used by maids. There's two bumps on top of it that look like cat ears. It's very cute.",
@@ -2177,13 +2322,15 @@
         "weight": "90 g"
     },
     {
-        "armor_data": {
-            "coverage": 15,
-            "covers": [
-                "leg_l",
-                "leg_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 15,
+                "covers": [
+                    "leg_l",
+                    "leg_r"
+                ]
+            }
+        ],
         "category": "clothing",
         "color": "white",
         "description": "A special type of underwear meant for people with tails. Although it's incredibly thin, it's the last line of defense for your dignity.",
@@ -2209,13 +2356,15 @@
         "weight": "100 g"
     },
     {
-        "armor_data": {
-            "coverage": 15,
-            "covers": [
-                "leg_l",
-                "leg_r"
-            ]
-        },
+        "armor": [
+            {
+                "coverage": 15,
+                "covers": [
+                    "leg_l",
+                    "leg_r"
+                ]
+            }
+        ],
         "color": "white",
         "description": "A special type of underwear meant for people with tails. It stands as the difference between being a gentleman and being a beast.",
         "flags": [
