@@ -1,0 +1,12 @@
+[
+    {
+        "desc": [
+            "Your maid stumbles around with a blissful expression. Best give them some time to recharge.\n\nNPC only trait - if you have this something went wrong."
+        ],
+        "id": "maid_milked",
+        "name": [
+            "Recently Milked"
+        ],
+        "type": "effect_type"
+    }
+]

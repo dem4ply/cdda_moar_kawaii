@@ -1,0 +1,22 @@
+[
+    {
+        "ammo_type": "blob_gohan",
+        "category": "other",
+        "color": "light_red",
+        "count": 100,
+        "description": "Feed made for a certain type of blob. It's a protein paste made out of meat.",
+        "id": "blob_gohan",
+        "material": [
+            "flesh"
+        ],
+        "name": {
+            "str": "maid's blob feed"
+        },
+        "price": 0,
+        "stack_size": 100,
+        "symbol": "=",
+        "type": "AMMO",
+        "volume": "250 ml",
+        "weight": "1 g"
+    }
+]

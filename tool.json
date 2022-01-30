@@ -1,0 +1,62 @@
+[
+    {
+        "ammo": [
+            "maid_point"
+        ],
+        "bashing": 18,
+        "charges_per_use": 1,
+        "color": "brown",
+        "cutting": 18,
+        "description": "A set of secret maid cookware. By powering it with maid energy, you can create dishes filled with love.",
+        "flags": [
+            "DURABLE_MELEE"
+        ],
+        "id": "maid_mess_kit",
+        "initial_charges": 100,
+        "material": [
+            "steel"
+        ],
+        "max_charges": 400,
+        "name": {
+            "str": "maid's cookware kit"
+        },
+        "price": 2000,
+        "qualities": [
+            [
+                "COOK",
+                3
+            ],
+            [
+                "BOIL",
+                2
+            ],
+            [
+                "CONTAIN",
+                1
+            ],
+            [
+                "CHEM",
+                1
+            ],
+            [
+                "CUT",
+                1
+            ],
+            [
+                "BUTCHER",
+                20
+            ]
+        ],
+        "sub": "hotplate",
+        "symbol": ";",
+        "techniques": [
+            "BRUTAL",
+            "WBLOCK_1"
+        ],
+        "to_hit": 1,
+        "type": "TOOL",
+        "use_action": "HOTPLATE",
+        "volume": "1250 ml",
+        "weight": "1000 g"
+    }
+]

@@ -1,0 +1,86 @@
+[
+    {
+        "category": "spare_parts",
+        "color": "light_gray",
+        "description": "\u4e01\u5be7\u306b\u307e\u3068\u3081\u3066\u304b\u3055\u3070\u3089\u306a\u3044\u69d8\u306b\u3057\u305f\u5e03\u7d20\u6750\u3067\u3059\u3002\u5206\u89e3\u3059\u308b\u4e8b\u3067\u5229\u7528\u3067\u304d\u307e\u3059\u3002",
+        "id": "kawaii_comp_rag",
+        "material": [
+            "cotton"
+        ],
+        "name": "\u307e\u3068\u3081\u305f\u5e03[SM]",
+        "price": 0,
+        "symbol": "*",
+        "type": "GENERIC",
+        "volume": 1,
+        "weight": 110
+    },
+    {
+        "category": "tools",
+        "color": "dark_gray",
+        "description": "A mutagenic serum, designed to transform the subject into a docile servant capable of producing large amounts of milk. Talk to a follower to use.",
+        "id": "milk_serum",
+        "name": {
+            "str": "milk maid serum",
+            "str_pl": "milk maid serums"
+        },
+        "price": 5000,
+        "symbol": "-",
+        "type": "GENERIC",
+        "volume": "150 ml",
+        "weight": "250 g"
+    },
+    {
+        "book_data": {
+            "chapters": 5,
+            "fun": 0,
+            "intelligence": 5,
+            "max_level": 0,
+            "required_level": 0,
+            "skill": "none",
+            "time": 10
+        },
+        "category": "books",
+        "color": "green",
+        "description": "A collection of letters written by various maids, detailing the things they do for their masters. The later pages are filled with drawings from what little you can peek, but they're stuck together with something. Can teach you a unique martial art.",
+        "id": "manual_maid",
+        "material": [
+            "paper"
+        ],
+        "name": {
+            "str": "A Maid's Memoirs"
+        },
+        "price": 20000,
+        "symbol": "?",
+        "type": "GENERIC",
+        "use_action": "MA_MANUAL",
+        "volume": "250 ml",
+        "weight": "150 g"
+    },
+    {
+        "category": "other",
+        "color": "dark_gray",
+        "description": "A glass flask containing a piece of meat that seems to be growing. Occasionally the piece of meat pulsates.",
+        "id": "flask_shoggoth",
+        "material": [
+            "glass",
+            "maid"
+        ],
+        "name": {
+            "str": "flask (shoggoth)",
+            "str_pl": "flasks (shoggoth)"
+        },
+        "price": 5000,
+        "symbol": "M",
+        "type": "GENERIC",
+        "use_action": {
+            "moves": 0,
+            "msg": "The flask is threatening to shatter as the meat keeps growing. Use it again to open it and relieve the pressure.",
+            "not_ready_msg": "The piece of meat pulsates.",
+            "target": "shoggoth_maid",
+            "transform_age": 201600,
+            "type": "delayed_transform"
+        },
+        "volume": "250 ml",
+        "weight": "1200 g"
+    }
+]

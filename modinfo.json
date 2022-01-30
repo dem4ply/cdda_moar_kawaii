@@ -1,0 +1,12 @@
+[
+    {
+        "authors": [ "dem4ply" ],
+        "category": "content",
+        "dependencies": [ "dda" ],
+        "description": "ropa kawaii",
+        "id": "moar_kawaii",
+        "maintainers": [ "dem4ply" ],
+        "name": "moar kawaii",
+        "type": "MOD_INFO"
+    }
+]

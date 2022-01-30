@@ -1,0 +1,1099 @@
+[
+    {
+        "description": "Your natural eye color is a bright blue. ",
+        "flags": [
+            "eyes_cute"
+        ],
+        "id": "EYE_BLUE_JP",
+        "name": "Cute bright blue eyes",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "valid": true
+    },
+    {
+        "description": "Your natural eye color is a dark blue. ",
+        "flags": [
+            "eyes_cute"
+        ],
+        "id": "EYE_BLUE_JP_2",
+        "name": "Cute dark blue eyes",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "valid": true
+    },
+    {
+        "description": "Your natural eye color is a bright brown.",
+        "flags": [
+            "eyes_cute"
+        ],
+        "id": "EYE_BROWN_JP",
+        "name": "Cute bright brown eyes",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "valid": true
+    },
+    {
+        "description": "Your natural eye color is a dark brown.",
+        "flags": [
+            "eyes_cute"
+        ],
+        "id": "EYE_BROWN_JP_2",
+        "name": "Cute dark brown eyes",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "valid": true
+    },
+    {
+        "description": "Your natural eye color is a bright gray.",
+        "flags": [
+            "eyes_cute"
+        ],
+        "id": "EYE_GRAY_JP",
+        "name": "Cute bright gray eyes",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "valid": true
+    },
+    {
+        "description": "Your natural eye color is a dark gray.",
+        "flags": [
+            "eyes_cute"
+        ],
+        "id": "EYE_GRAY_JP_2",
+        "name": "Cute dark gray eyes",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "valid": true
+    },
+    {
+        "description": "Your natural eye color is a bright red.",
+        "flags": [
+            "eyes_cute"
+        ],
+        "id": "EYE_RED_JP",
+        "name": "Cute bright red eyes",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "valid": true
+    },
+    {
+        "description": "Your natural eye color is a dark red.",
+        "flags": [
+            "eyes_cute"
+        ],
+        "id": "EYE_RED_JP_2",
+        "name": "Cute dark red eyes",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "valid": true
+    },
+    {
+        "description": "Your natural eye color is a bright green.",
+        "flags": [
+            "eyes_cute"
+        ],
+        "id": "EYE_GREEN_JP",
+        "name": "Cute bright green eyes",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "valid": true
+    },
+    {
+        "description": "Your natural eye color is a dark green.",
+        "flags": [
+            "eyes_cute"
+        ],
+        "id": "EYE_GREEN_JP_2",
+        "name": "Cute dark green eyes",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "valid": true
+    },
+    {
+        "description": "Your natural eye color is a bright yellow.",
+        "flags": [
+            "eyes_cute"
+        ],
+        "id": "EYE_YELLOW_JP",
+        "name": "Cute bright yellow eyes",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "valid": true
+    },
+    {
+        "description": "Your natural eye color is a dark yellow.",
+        "flags": [
+            "eyes_cute"
+        ],
+        "id": "EYE_YELLOW_JP_2",
+        "name": "Cute dark yellow eyes",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "valid": true
+    },
+    {
+        "description": "Your natural eye color is a bright purple.",
+        "flags": [
+            "eyes_cute"
+        ],
+        "id": "EYE_PURPLE_JP",
+        "name": "Cute bright purple eyes",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "valid": true
+    },
+    {
+        "description": "Your natural eye color is a dark purple.",
+        "flags": [
+            "eyes_cute"
+        ],
+        "id": "EYE_PURPLE_JP_2",
+        "name": "Cute dark purple eyes",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "valid": true
+    },
+    {
+        "description": "Your natural skin color is (or was) rather pale.",
+        "id": "SKIN_PALE_JP",
+        "name": "Cute pale skin",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "types": [
+            "skin_tone"
+        ],
+        "valid": false
+    },
+    {
+        "description": "Your natural skin color is (or was) rather pale.",
+        "id": "SKIN_LIGHT_JP",
+        "name": "Cute lightale skin",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "types": [
+            "skin_tone"
+        ],
+        "valid": false
+    },
+    {
+        "description": "Your natural skin color is (or was) rather pale.",
+        "id": "SKIN_MEDIUM_JP",
+        "name": "Cute medium skin",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "types": [
+            "skin_tone"
+        ],
+        "valid": false
+    },
+    {
+        "description": "Your natural skin color is (or was) rather pale.",
+        "id": "SKIN_TAN_JP",
+        "name": "Cute tan skin",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "types": [
+            "skin_tone"
+        ],
+        "valid": false
+    },
+    {
+        "description": "Your natural skin color is (or was) rather pale.",
+        "id": "SKIN_DARK_JP",
+        "name": "Cute dark skin",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "types": [
+            "skin_tone"
+        ],
+        "valid": false
+    },
+    {
+        "description": "Your natural skin color is (or was) rather pale.",
+        "id": "SKIN_PINK_JP",
+        "name": "Cute pink skin",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "types": [
+            "skin_tone"
+        ],
+        "valid": false
+    },
+    {
+        "description": "Your natural hair color is (or was) blonde.",
+        "flags": [
+            "hair_blond",
+            "hair_cute"
+        ],
+        "id": "hair1blondjp",
+        "name": "Cute Blonde Hair",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "types": [
+            "hair_style"
+        ],
+        "valid": false
+    },
+    {
+        "description": "Your natural hair color is (or was) red.",
+        "flags": [
+            "hair_red",
+            "hair_cute"
+        ],
+        "id": "hair1redjp",
+        "name": "Cute Red Hair",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "types": [
+            "hair_style"
+        ],
+        "valid": false
+    },
+    {
+        "description": "Your natural hair color is (or was) brown.",
+        "flags": [
+            "hair_brown",
+            "hair_cute"
+        ],
+        "id": "hair1brownjp",
+        "name": "Cute Brown Hair",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "types": [
+            "hair_style"
+        ],
+        "valid": false
+    },
+    {
+        "description": "Your natural hair color is (or was) black.",
+        "flags": [
+            "hair_black",
+            "hair_cute"
+        ],
+        "id": "hair1blackjp",
+        "name": "Cute Black Hair",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "types": [
+            "hair_style"
+        ],
+        "valid": false
+    },
+    {
+        "description": "Your natural hair color is (or was) white.",
+        "flags": [
+            "hair_white",
+            "hair_cute"
+        ],
+        "id": "hair1whitejp",
+        "name": "Cute White Hair",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "types": [
+            "hair_style"
+        ],
+        "valid": false
+    },
+    {
+        "description": "Your natural hair color is (or was) grey.",
+        "flags": [
+            "hair_grey",
+            "hair_cute"
+        ],
+        "id": "hair1greyjp",
+        "name": "Cute Grey Hair",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "types": [
+            "hair_style"
+        ],
+        "valid": false
+    },
+    {
+        "description": "Your natural hair color is (or was) pink.",
+        "flags": [
+            "hair_pink",
+            "hair_cute"
+        ],
+        "id": "hair1pinkjp",
+        "name": "Cute Pink Hair",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "types": [
+            "hair_style"
+        ],
+        "valid": false
+    },
+    {
+        "description": "Your natural hair color is (or was) orange.",
+        "flags": [
+            "hair_orange",
+            "hair_cute"
+        ],
+        "id": "hair1orangejp",
+        "name": "Cute Orange Hair",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "types": [
+            "hair_style"
+        ],
+        "valid": false
+    },
+    {
+        "description": "Your natural hair color is (or was) blue.",
+        "flags": [
+            "hair_blue",
+            "hair_cute"
+        ],
+        "id": "hair1bluejp",
+        "name": "Cute Blue Hair",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "types": [
+            "hair_style"
+        ],
+        "valid": false
+    },
+    {
+        "description": "Your natural hair color is (or was) green.",
+        "flags": [
+            "hair_green",
+            "hair_cute"
+        ],
+        "id": "hair1greenjp",
+        "name": "Cute Green Hair",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "types": [
+            "hair_style"
+        ],
+        "valid": false
+    },
+    {
+        "description": "Your natural hair color is (or was) aqua.",
+        "flags": [
+            "hair_aqua",
+            "hair_cute"
+        ],
+        "id": "hair1aquajp",
+        "name": "Cute Aqua Hair",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "types": [
+            "hair_style"
+        ],
+        "valid": false
+    },
+    {
+        "description": "Your natural hair color is (or was) purple.",
+        "flags": [
+            "hair_purple",
+            "hair_cute"
+        ],
+        "id": "hair1purplejp",
+        "name": "Cute Purple Hair",
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "starting_trait": true,
+        "type": "mutation",
+        "types": [
+            "hair_style"
+        ],
+        "valid": false
+    },
+    {
+        "description": "Your master was more hated than most, forcing you to learn some unorthodox combat techniques.",
+        "id": "MARTIAL_ARTS_maid",
+        "initial_ma_styles": [
+            "style_maid"
+        ],
+        "name": {
+            "str": "Servant's fighting technique"
+        },
+        "points": 3,
+        "starting_trait": true,
+        "type": "mutation",
+        "valid": false
+    },
+    {
+        "description": "Your master was more hated than most, forcing you to learn some unorthodox combat techniques.",
+        "id": "PROF_MA_MAID",
+        "initial_ma_styles": [
+            "style_maid"
+        ],
+        "name": {
+            "str": "Servant's fighting technique"
+        },
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "type": "mutation",
+        "valid": false
+    },
+    {
+        "description": "You have grown features resembling those of a catgirl.",
+        "id": "PROF_NEKOMIMI",
+        "name": {
+            "str": "Nekomimi"
+        },
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "type": "mutation",
+        "ugliness": -5,
+        "valid": false,
+        "visibility": 10
+    },
+    {
+        "description": "Summoned maids cannot use items. NPC only trait - if you have this, something went wrong.",
+        "id": "MAID_RESTRICT",
+        "name": {
+            "str": "Summoned Maid"
+        },
+        "points": 0,
+        "profession": true,
+        "purifiable": false,
+        "type": "mutation",
+        "valid": false
+    },
+    {
+        "description": "Practicality is far less important than style.  Your morale is improved by wearing fashionable and attractive clothing.",
+        "id": "STYLISH",
+        "name": {
+            "str": "Stylish"
+        },
+        "points": 1,
+        "starting_trait": true,
+        "type": "mutation",
+        "valid": false
+    },
+    {
+        "category": [
+            "SHOGGOTH"
+        ],
+        "description": "Muscle, chitin, and bone splinter and mend into the optimal shape for the task at hand.  Dexterity + 2, Strength + 4",
+        "id": "SHOGGOTH_BUFF_OK",
+        "name": {
+            "str": "Polymorphic Structure"
+        },
+        "passive_mods": {
+            "dex_mod": 2,
+            "str_mod": 4
+        },
+        "points": 5,
+        "prereqs": [
+            "SHOGGOTH_BUFF"
+        ],
+        "purifiable": false,
+        "threshreq": [
+            "THRESH_SHOGGOTH"
+        ],
+        "type": "mutation",
+        "ugliness": 10,
+        "visibility": 10
+    },
+    {
+        "category": [
+            "SHOGGOTH"
+        ],
+        "changes_to": [
+            "SHOGGOTH_BUFF_OK"
+        ],
+        "description": "Your skeletal structure spontaneously shifts into alien forms. This will take some getting used to. Dexterity -4",
+        "id": "SHOGGOTH_BUFF",
+        "name": {
+            "str": "Unstable Structure"
+        },
+        "passive_mods": {
+            "dex_mod": -4
+        },
+        "points": 4,
+        "threshreq": [
+            "THRESH_SHOGGOTH"
+        ],
+        "type": "mutation",
+        "ugliness": 10,
+        "visibility": 10
+    },
+    {
+        "category": [
+            "SLIME",
+            "SHOGGOTH"
+        ],
+        "description": "You can now extend and reabsorb sensory organs at will, and can therefore ignore most shocks that would overwhelm lesser beings.",
+        "id": "PER_SLIME_OK",
+        "leads_to": [
+            "SLIMESPAWNER"
+        ],
+        "name": {
+            "str": "Distributed Senses"
+        },
+        "passive_mods": {
+            "per_mod": 5
+        },
+        "points": 7,
+        "prereqs": [
+            "PER_SLIME"
+        ],
+        "prereqs2": [
+            "AMORPHOUS"
+        ],
+        "purifiable": false,
+        "threshreq": [
+            "THRESH_SLIME",
+            "THRESH_SHOGGOTH"
+        ],
+        "type": "mutation",
+        "ugliness": 10,
+        "valid": false,
+        "visibility": 10
+    },
+    {
+        "armor": [
+            {
+                "cut": 4,
+                "parts": [
+                    "torso",
+                    "head",
+                    "arm_l",
+                    "arm_r",
+                    "hand_l",
+                    "hand_r",
+                    "leg_l",
+                    "leg_r",
+                    "foot_l",
+                    "foot_r",
+                    "mouth",
+                    "eyes"
+                ]
+            }
+        ],
+        "category": [
+            "SHOGGOTH"
+        ],
+        "consume_time_modifier": 1.1,
+        "description": "Your twisted, crackling flesh roils with new vigor. External damage pales in comparison to the chaotic knitting and reknitting taking place just beneath the surface.\n\nGain +4 cut armor, reduced move cost, and improved healing",
+        "healing_awake": 1.0,
+        "healing_resting": 0.75,
+        "id": "SHOGGOTH_BODY",
+        "mending_modifier": 32.0,
+        "mixed_effect": true,
+        "movecost_modifier": 0.8,
+        "name": {
+            "str": "Unbound Flesh"
+        },
+        "points": -2,
+        "purifiable": false,
+        "threshreq": [
+            "THRESH_SHOGGOTH"
+        ],
+        "type": "mutation",
+        "ugliness": 10,
+        "visibility": 10
+    },
+    {
+        "armor": [
+            {
+                "bash": 8,
+                "cut": 12,
+                "parts": [
+                    "torso",
+                    "head",
+                    "arm_l",
+                    "arm_r",
+                    "hand_l",
+                    "hand_r",
+                    "leg_l",
+                    "leg_r",
+                    "foot_l",
+                    "foot_r",
+                    "mouth",
+                    "eyes"
+                ]
+            }
+        ],
+        "description": "Alien flesh and bone inhabits a human frame. This fell abomination once was, and still is, an eldritch being beyond our understanding.\n\nNPC version of Unbound Flesh, approx. 3x as strong.",
+        "healing_awake": 3.0,
+        "healing_resting": 2.25,
+        "id": "SHOGGOTH_BODY_NPC",
+        "mending_modifier": 100.0,
+        "mixed_effect": true,
+        "movecost_modifier": 0.8,
+        "name": {
+            "str": "Eldritch Doppelg\u00e4nger"
+        },
+        "points": -2,
+        "purifiable": false,
+        "threshreq": [
+            "THRESH_SHOGGOTH"
+        ],
+        "type": "mutation",
+        "ugliness": 10,
+        "valid": false,
+        "visibility": 10
+    },
+    {
+        "category": [
+            "SLIME",
+            "SHOGGOTH"
+        ],
+        "changes_to": [
+            "PER_SLIME_OK"
+        ],
+        "description": "Your sense organs are all over the place: eyes extending and retracting, 'ears' of various shapes migrating about, and taste & smell are uncontrollable.  The world is a horrible mixup.  Ugh!",
+        "id": "PER_SLIME",
+        "name": {
+            "str": "Sensory Disintegration"
+        },
+        "passive_mods": {
+            "per_mod": -8
+        },
+        "points": -7,
+        "prereqs": [
+            "PER_UP"
+        ],
+        "prereqs2": [
+            "AMORPHOUS"
+        ],
+        "purifiable": false,
+        "threshreq": [
+            "THRESH_SLIME",
+            "THRESH_SHOGGOTH"
+        ],
+        "type": "mutation",
+        "ugliness": 10,
+        "valid": false,
+        "visibility": 10
+    },
+    {
+        "armor": [
+            {
+                "bash": 4,
+                "parts": [
+                    "torso",
+                    "head",
+                    "arm_l",
+                    "arm_r",
+                    "hand_l",
+                    "hand_r",
+                    "leg_l",
+                    "leg_r",
+                    "foot_l",
+                    "foot_r",
+                    "mouth",
+                    "eyes"
+                ]
+            }
+        ],
+        "category": [
+            "SLIME",
+            "SHOGGOTH"
+        ],
+        "consume_time_modifier": 1.1,
+        "description": "Your flesh is a pleasing gel-like consistency.  Your bodily functions seem to be moving around, and your leg-equivalents flow comfortably - if a little slower than your old meat-legs.",
+        "id": "AMORPHOUS",
+        "leads_to": [
+            "INT_SLIME",
+            "PER_SLIME"
+        ],
+        "movecost_modifier": 1.25,
+        "name": {
+            "str": "Amorphous Body"
+        },
+        "points": -2,
+        "purifiable": false,
+        "threshreq": [
+            "THRESH_SLIME",
+            "THRESH_SHOGGOTH"
+        ],
+        "type": "mutation",
+        "ugliness": 10,
+        "visibility": 10
+    },
+    {
+        "attacks": {
+            "attack_text_npc": "%1$s tears into %2$s with their monstrous limbs",
+            "attack_text_u": "You rend %s with nightmare made flesh",
+            "base_damage": {
+                "amount": 25,
+                "damage_type": "stab"
+            },
+            "chance": 20,
+            "strength_damage": {
+                "amount": 2,
+                "damage_type": "cut"
+            }
+        },
+        "category": [
+            "SHOGGOTH"
+        ],
+        "description": "Your limbs are a nightmare of splintered bone, gaping maws, and jagged fangs. You can make devastating bonus attacks, but basically everyone will attempt to kill you on sight. Also prevents wearing gloves and shoes, though you wish you could.",
+        "destroys_gear": true,
+        "id": "SHUFFLING_HORROR",
+        "mixed_effect": true,
+        "name": {
+            "str": "Shuffling Horror"
+        },
+        "points": 6,
+        "prereqs": [
+            "SHOGGOTH_BUFF_OK"
+        ],
+        "purifiable": false,
+        "restricts_gear": [
+            "hand_r",
+            "hand_l",
+            "foot_l",
+            "foot_r"
+        ],
+        "social_modifiers": {
+            "intimidate": -30,
+            "persuade": -50
+        },
+        "threshreq": [
+            "THRESH_SHOGGOTH"
+        ],
+        "type": "mutation",
+        "ugliness": 20,
+        "visibility": 10
+    },
+    {
+        "category": [
+            "CHIMERA",
+            "SHOGGOTH"
+        ],
+        "description": "You consume three times as much food as the average human to maintain your truly superhuman endurance.",
+        "id": "HUNGER3",
+        "leads_to": [
+            "EATHEALTH"
+        ],
+        "metabolism_modifier": 2.0,
+        "name": {
+            "str": "Extreme Metabolism"
+        },
+        "points": -2,
+        "prereqs": [
+            "HUNGER2"
+        ],
+        "stamina_regen_modifier": 0.5,
+        "type": "mutation",
+        "types": [
+            "METABOLISM"
+        ]
+    },
+    {
+        "active": true,
+        "category": [
+            "CHIMERA",
+            "SHOGGOTH"
+        ],
+        "description": "Your particular metabolism allows you to burn calories at a prodigious rate to regenerate tissues in a matter of minutes, this is however a very wasteful process.  Activate to start healing.",
+        "id": "EATHEALTH",
+        "name": {
+            "str": "Hyper-Metabolism"
+        },
+        "points": 15,
+        "prereqs": [
+            "HUNGER3"
+        ],
+        "threshreq": [
+            "THRESH_CHIMERA",
+            "THRESH_SHOGGOTH"
+        ],
+        "transform": {
+            "active": true,
+            "moves": 0,
+            "msg_transform": "Your hyper-metabolism starts burning up calories.",
+            "target": "EATHEALTH_active"
+        },
+        "type": "mutation",
+        "types": [
+            "METABOLISM"
+        ],
+        "valid": false
+    },
+    {
+        "cancels": [
+            "FLIMSY",
+            "FLIMSY2",
+            "FLIMSY3",
+            "GLASSJAW"
+        ],
+        "category": [
+            "URSINE",
+            "CATTLE",
+            "CHIMERA",
+            "BEAST",
+            "LIZARD",
+            "MEDICAL",
+            "SHOGGOTH"
+        ],
+        "changes_to": [
+            "MUT_TOUGH2"
+        ],
+        "description": "You can survive injuries that would incapacitate humans: you get a 20% bonus to all hit points.  Stacks with Tough, etc.",
+        "hp_modifier_secondary": 0.2,
+        "id": "MUT_TOUGH",
+        "name": {
+            "str": "Resilient"
+        },
+        "points": 2,
+        "prereqs": [
+            "LARGE_OK",
+            "HUGE_OK",
+            "STR_UP_3",
+            "STR_UP_4",
+            "MASOCHIST_MED",
+            "SHOGGOTH_BUFF_OK"
+        ],
+        "social_modifiers": {
+            "intimidate": 2
+        },
+        "threshreq": [
+            "THRESH_URSINE",
+            "THRESH_CATTLE",
+            "THRESH_CHIMERA",
+            "THRESH_MEDICAL",
+            "THRESH_LIZARD",
+            "THRESH_BEAST",
+            "THRESH_SHOGGOTH"
+        ],
+        "type": "mutation"
+    },
+    {
+        "description": "Tekeli-li.",
+        "id": "THRESH_SHOGGOTH",
+        "name": {
+            "str": "Tekeli-li?"
+        },
+        "points": 1,
+        "purifiable": false,
+        "threshold": true,
+        "type": "mutation",
+        "valid": false
+    },
+    {
+        "description": "This maid's body has been altered to produce large amounts of useful fluids.",
+        "id": "THRESH_MILK",
+        "name": {
+            "str": "Milk Maid"
+        },
+        "points": 1,
+        "purifiable": false,
+        "threshold": true,
+        "type": "mutation",
+        "valid": false
+    },
+    {
+        "category": [
+            "SHOGGOTH",
+            "SHOGGOTH",
+            "SHOGGOTH",
+            "SHOGGOTH",
+            "SHOGGOTH",
+            "SHOGGOTH",
+            "SHOGGOTH",
+            "SHOGGOTH",
+            "SHOGGOTH"
+        ],
+        "description": "Something feels off. Your brain itches, and you swear you can feel your bones twitching.",
+        "id": "SHOGGOTH_PRECURSOR",
+        "name": {
+            "str": "Eldritch Precursor"
+        },
+        "points": 0,
+        "purifiable": false,
+        "type": "mutation",
+        "ugliness": 0,
+        "visibility": 0
+    },
+    {
+        "category": [
+            "MILK",
+            "MILK",
+            "MILK",
+            "MILK",
+            "MILK",
+            "MILK",
+            "MILK",
+            "MILK",
+            "MILK",
+            "MILK",
+            "MILK",
+            "MILK",
+            "MILK"
+        ],
+        "description": "Master is a good person. They make me feel warm and fuzzy inside.",
+        "id": "MILK_PRECURSOR",
+        "mixed_effect": true,
+        "name": {
+            "str": "Milk Maid's Adoration"
+        },
+        "passive_mods": {
+            "int_mod": -4,
+            "per_mod": -2
+        },
+        "points": 0,
+        "purifiable": false,
+        "type": "mutation",
+        "ugliness": 0,
+        "visibility": 0
+    },
+    {
+        "category": [
+            "MILK",
+            "CATTLE"
+        ],
+        "description": "You have a pair of soft and floppy ears, like a cow.",
+        "id": "CATTLE_EARS",
+        "name": {
+            "str": "Cattle Ears"
+        },
+        "points": 0,
+        "purifiable": true,
+        "type": "mutation",
+        "ugliness": -2,
+        "visibility": 5
+    },
+    {
+        "category": [
+            "MILK"
+        ],
+        "description": "You may not be pregnant, but sweet milk flows forth nonetheless. The sheer size of your breasts can be difficult to manage, however.",
+        "encumbrance_always": [
+            [
+                "torso",
+                30
+            ]
+        ],
+        "id": "BOUNTIFUL",
+        "mixed_effect": true,
+        "movecost_modifier": 1.25,
+        "name": {
+            "str": "Bountiful Milk"
+        },
+        "passive_mods": {
+            "dex_mod": -6
+        },
+        "points": 0,
+        "purifiable": true,
+        "type": "mutation",
+        "ugliness": -10,
+        "visibility": 10
+    },
+    {
+        "description": "There are two genders in your body.",
+        "id": "futanari",
+        "name": {
+            "str": "Hermaphrodite"
+        },
+        "points": 0,
+        "starting_trait": true,
+        "type": "mutation",
+        "valid": false
+    },
+    {
+        "description": "Writhing tentacles that can be used in reproduction are growing in your body.",
+        "id": "syokusyu",
+        "name": {
+            "str": "Reproductive Tentacles"
+        },
+        "points": 0,
+        "starting_trait": true,
+        "type": "mutation",
+        "valid": false
+    }
+]

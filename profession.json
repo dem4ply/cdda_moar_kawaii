@@ -1,0 +1,228 @@
+[
+    {
+        "description": "Although I worked in a large mansion, the day the cataclysm, my master's family fled to a secret location I did not know of. You were alone with a dirty house, and a cluttered city. It's time to go to work.",
+        "id": "kawaii_maid",
+        "items": {
+            "both": [
+                "pocketwatch",
+                "knife_steak"
+            ],
+            "female": [
+                "kawaii_maid_panties",
+                "kawaii_maid_bra",
+                "kawaii_maid_niso_thick",
+                "kawaii_maid_dress",
+                "kawaii_maid_hat",
+                "kawaii_gloves_light",
+                "kawaii_dress_shoes"
+            ],
+            "male": [
+                "briefs",
+                "kawaii_maid_niso_thick",
+                "kawaii_maid_dress",
+                "kawaii_maid_hat",
+                "kawaii_gloves_light",
+                "kawaii_dress_shoes"
+            ]
+        },
+        "name": "Cute Maid",
+        "points": 1,
+        "skills": [
+            {
+                "level": 2,
+                "name": "cooking"
+            },
+            {
+                "level": 1,
+                "name": "driving"
+            },
+            {
+                "level": 2,
+                "name": "tailor"
+            }
+        ],
+        "type": "profession"
+    },
+    {
+        "description": "After months in seculusion and prayer at our underground church, we visited the surface to find the world was completely changed. There is no need for despair, for God is with us.",
+        "id": "kawaii_priest",
+        "items": {
+            "both": [
+                "kawaii_sister_veil",
+                "socks",
+                "dress_shoes",
+                "kawaii_sister_dress",
+                "holy_symbol"
+            ],
+            "female": [
+                "kawaii_maid_panties",
+                "kawaii_maid_bra"
+            ],
+            "male": [
+                "briefs"
+            ]
+        },
+        "name": "Cute Nun",
+        "points": 0,
+        "skills": [
+            {
+                "level": 3,
+                "name": "speech"
+            }
+        ],
+        "type": "profession"
+    },
+    {
+        "description": "I used to think it would be nice if school closed forever. Now that the cataclysm has happened, it seems my wish has come true.",
+        "id": "kawaii_student",
+        "items": {
+            "both": [
+                "kawaii_maid_megane_02",
+                "kawaii_socks_white",
+                "kawaii_sailor_fuku",
+                "kawaii_loafer",
+                "ZSG",
+                "backpack",
+                "textbook_speech",
+                "story_book",
+                "howto_computer",
+                "novel_coa"
+            ],
+            "female": [
+                "kawaii_maid_simapan_pink",
+                "kawaii_maid_simabura_pink"
+            ],
+            "male": [
+                "boxer_shorts"
+            ]
+        },
+        "name": "Cute Schoolgirl",
+        "points": 0,
+        "skills": [
+            {
+                "level": 3,
+                "name": "speech"
+            }
+        ],
+        "type": "profession"
+    },
+    {
+        "description": "In order to serve your master, you have went through special combat training. You have learned to clean every bit of malice coming towards your master.",
+        "id": "battle_maid",
+        "items": {
+            "both": [
+                "pocketwatch",
+                "knife_butter",
+                "gloves_leather",
+                "tool_belt",
+                "knit_scarf",
+                "maid_cloak_off",
+                "assassins_throwing_dagger",
+                "master_doll",
+                "maid_bell"
+            ],
+            "female": [
+                "bra",
+                "tights",
+                "boots",
+                "maid_dress",
+                "maid_hat"
+            ],
+            "male": [
+                "briefs",
+                "socks",
+                "dress_shoes",
+                "tux"
+            ]
+        },
+        "name": {
+            "female": "Battle maid",
+            "male": "Butler"
+        },
+        "points": 8,
+        "skills": [
+            {
+                "level": 5,
+                "name": "cooking"
+            },
+            {
+                "level": 4,
+                "name": "tailor"
+            },
+            {
+                "level": 4,
+                "name": "driving"
+            },
+            {
+                "level": 4,
+                "name": "throw"
+            },
+            {
+                "level": 3,
+                "name": "melee"
+            },
+            {
+                "level": 3,
+                "name": "unarmed"
+            },
+            {
+                "level": 3,
+                "name": "dodge"
+            }
+        ],
+        "traits": [
+            "PROF_MA_MAID"
+        ],
+        "type": "profession"
+    },
+    {
+        "description": "When the cataclysm came, you suddenly grew cat ears and a tail! Now you only need your master to give you a collar.",
+        "id": "cat_maid",
+        "items": {
+            "both": [
+                "pocketwatch",
+                "knife_butter",
+                "leather_collar"
+            ],
+            "female": [
+                "stockings_lace",
+                "bra",
+                "boots",
+                "maid_dress",
+                "cat_maid_cap"
+            ],
+            "male": [
+                "briefs_kemo",
+                "socks",
+                "dress_shoes",
+                "tux"
+            ]
+        },
+        "name": {
+            "female": "Catgirl maid",
+            "male": "Catboy butler"
+        },
+        "points": 4,
+        "skills": [
+            {
+                "level": 3,
+                "name": "cooking"
+            },
+            {
+                "level": 1,
+                "name": "driving"
+            },
+            {
+                "level": 3,
+                "name": "tailor"
+            }
+        ],
+        "traits": [
+            "PROF_NEKOMIMI",
+            "FELINE_EARS",
+            "TAIL_LONG",
+            "NIGHTVISION2"
+        ],
+        "type": "profession"
+    }
+]

@@ -1,0 +1,2440 @@
+[
+    {
+        "armor_data": {
+            "coverage": 90,
+            "covers": [
+                "torso",
+                "arm_l",
+                "arm_r",
+                "leg_l",
+                "leg_r"
+            ]
+        },
+        "color": "dark_gray",
+        "description": "Centuries of maid sewing techniques have culminated in this pinnacle of maid outfit technology: an year-round outfit that can be transformed to fit any weather or season.",
+        "encumbrance": 8,
+        "environmental_protection": 1,
+        "flags": [
+            "VARSIZE",
+            "POCKETS",
+            "FANCY"
+        ],
+        "id": "kawaii_maid_dress_ex",
+        "material": [
+            "cotton",
+            "leather"
+        ],
+        "material_thickness": 4,
+        "max_encumbrance": 16,
+        "name": "Cute Maid Adv. Uniform (summer form)",
+        "pocket_data": [
+            {
+                "max_contains_volume": "4 L",
+                "max_contains_weight": "8 kg",
+                "moves": 80,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            },
+            {
+                "max_contains_volume": "4 L",
+                "max_contains_weight": "8 kg",
+                "moves": 80,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            },
+            {
+                "max_contains_volume": "2 L",
+                "max_contains_weight": "4 kg",
+                "moves": 80,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            },
+            {
+                "max_contains_volume": "2 L",
+                "max_contains_weight": "4 kg",
+                "moves": 80,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            },
+            {
+                "max_contains_volume": "2 L",
+                "max_contains_weight": "4 kg",
+                "moves": 80,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            },
+            {
+                "max_contains_volume": "2 L",
+                "max_contains_weight": "4 kg",
+                "moves": 80,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            }
+        ],
+        "price": 50000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "use_action": {
+            "menu_text": "Add thermal lining",
+            "msg": "You modify the maid outfit to better protect against the cold.",
+            "target": "kawaii_maid_dress_ex2",
+            "type": "transform"
+        },
+        "volume": "5500 ml",
+        "warmth": 0,
+        "weight": "3800 g"
+    },
+    {
+        "armor_data": {
+            "coverage": 95
+        },
+        "copy-from": "kawaii_maid_dress_ex",
+        "description": "Centuries of maid sewing techniques have culminated in this pinnacle of maid outfit technology: an year-round outfit that can be transformed to fit any weather or season.",
+        "id": "kawaii_maid_dress_ex2",
+        "name": "Cute Maid Adv. Uniform (winter form)",
+        "type": "ARMOR",
+        "use_action": {
+            "menu_text": "Remove thermal lining",
+            "msg": "You modify the maid outfit to better protect against the heat.",
+            "target": "kawaii_maid_dress_ex",
+            "type": "transform"
+        },
+        "warmth": 40
+    },
+    {
+        "armor_data": {
+            "coverage": 85,
+            "covers": [
+                "torso",
+                "arm_l",
+                "arm_r",
+                "leg_l",
+                "leg_r"
+            ]
+        },
+        "color": "blue",
+        "description": "A uniform with longer sleeves and skirt, better suited for winter.",
+        "encumbrance": 5,
+        "flags": [
+            "VARSIZE",
+            "POCKETS",
+            "FANCY"
+        ],
+        "id": "kawaii_maid_dress_long",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 2,
+        "max_encumbrance": 10,
+        "name": "Cute Victorian Maid Clothes",
+        "pocket_data": [
+            {
+                "max_contains_volume": "2 L",
+                "max_contains_weight": "4 kg",
+                "moves": 80,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            },
+            {
+                "max_contains_volume": "2 L",
+                "max_contains_weight": "4 kg",
+                "moves": 80,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            },
+            {
+                "max_contains_volume": "500 ml",
+                "max_contains_weight": "1 kg",
+                "moves": 120,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            },
+            {
+                "max_contains_volume": "500 ml",
+                "max_contains_weight": "1 kg",
+                "moves": 120,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            }
+        ],
+        "price": 50000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "1750 ml",
+        "warmth": 40,
+        "weight": 350
+    },
+    {
+        "armor_data": {
+            "coverage": 85,
+            "covers": [
+                "torso",
+                "arm_l",
+                "arm_r",
+                "leg_l",
+                "leg_r"
+            ]
+        },
+        "color": "blue",
+        "description": "A pure white wedding dress.",
+        "encumbrance": 5,
+        "flags": [
+            "VARSIZE",
+            "FANCY"
+        ],
+        "id": "kawaii_wedding_dress",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Wedding Dress",
+        "price": 5000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "2500 ml",
+        "warmth": 10,
+        "weight": 400
+    },
+    {
+        "armor_data": {
+            "coverage": 85,
+            "covers": [
+                "torso",
+                "arm_l",
+                "arm_r",
+                "leg_l",
+                "leg_r"
+            ]
+        },
+        "color": "blue",
+        "description": "A nun's habit for serving God that gives off a sacred aura.",
+        "encumbrance": 4,
+        "flags": [
+            "VARSIZE",
+            "FANCY"
+        ],
+        "id": "kawaii_sister_dress",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "max_encumbrance": 6,
+        "name": "Cute Nun Habit",
+        "pocket_data": [
+            {
+                "max_contains_volume": "4 L",
+                "max_contains_weight": "8 kg",
+                "moves": 80,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            },
+            {
+                "max_contains_volume": "4 L",
+                "max_contains_weight": "8 kg",
+                "moves": 80,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            },
+            {
+                "max_contains_volume": "2 L",
+                "max_contains_weight": "2 kg",
+                "moves": 120,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            },
+            {
+                "max_contains_volume": "2 L",
+                "max_contains_weight": "2 kg",
+                "moves": 120,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            }
+        ],
+        "price": 5000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "1250 ml",
+        "warmth": 5,
+        "weight": 200
+    },
+    {
+        "armor_data": {
+            "coverage": 95,
+            "covers": [
+                "torso",
+                "arm_l",
+                "arm_r",
+                "head"
+            ]
+        },
+        "color": "blue",
+        "description": "A transparent raincoat made from very thin vinyl, very popular with maids who want to be fashionable in rainy weather. The material is thin enough that the entire coat can fold away into a pocket when not in use.",
+        "encumbrance": 7,
+        "flags": [
+            "VARSIZE",
+            "POCKETS",
+            "WATERPROOF",
+            "RAINPROOF",
+            "HOOD",
+            "OUTER",
+            "FANCY"
+        ],
+        "id": "kawaii_raincoat",
+        "material": [
+            "plastic",
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Transparent Raincoat (hood on)",
+        "price": 5000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "use_action": {
+            "menu_text": "Toggle hood",
+            "msg": "You take off the hood.",
+            "target": "kawaii_raincoat_off",
+            "type": "transform"
+        },
+        "volume": "750 ml",
+        "warmth": 5,
+        "weight": 120
+    },
+    {
+        "armor_data": {
+            "coverage": 85,
+            "covers": [
+                "torso",
+                "arm_l",
+                "arm_r"
+            ]
+        },
+        "color": "blue",
+        "description": "A transparent raincoat made from very thin vinyl, very popular with maids who want to be fashionable in rainy wather. The material is thin enough that the entire coat can fold away into a pocket when not in use.",
+        "encumbrance": 4,
+        "flags": [
+            "VARSIZE",
+            "POCKETS",
+            "WATERPROOF",
+            "RAINPROOF",
+            "HOOD",
+            "OUTER",
+            "FANCY"
+        ],
+        "id": "kawaii_raincoat_off",
+        "material": [
+            "plastic",
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Transparent Raincoat (hood off)",
+        "price": 5000,
+        "repairs_like": "kawaii_raincoat",
+        "symbol": "[",
+        "type": "ARMOR",
+        "use_action": {
+            "menu_text": "Toggle hood",
+            "msg": "You put on the hood.",
+            "target": "kawaii_raincoat",
+            "type": "transform"
+        },
+        "volume": "750 ml",
+        "warmth": 5,
+        "weight": 120
+    },
+    {
+        "armor_data": {
+            "coverage": 85,
+            "covers": [
+                "torso",
+                "arm_l",
+                "arm_r",
+                "leg_l",
+                "leg_r"
+            ]
+        },
+        "color": "blue",
+        "description": "A school uniform worn by female students.",
+        "encumbrance": 4,
+        "flags": [
+            "VARSIZE",
+            "FANCY"
+        ],
+        "id": "kawaii_sailor_fuku",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "max_encumbrance": 6,
+        "name": "Cute School Girl Uniform",
+        "pocket_data": [
+            {
+                "max_contains_volume": "4 L",
+                "max_contains_weight": "8 kg",
+                "moves": 80,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            },
+            {
+                "max_contains_volume": "4 L",
+                "max_contains_weight": "8 kg",
+                "moves": 80,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            },
+            {
+                "max_contains_volume": "2 L",
+                "max_contains_weight": "2 kg",
+                "moves": 120,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            },
+            {
+                "max_contains_volume": "2 L",
+                "max_contains_weight": "2 kg",
+                "moves": 120,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            }
+        ],
+        "price": 50000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "1 L",
+        "warmth": 5,
+        "weight": 200
+    },
+    {
+        "armor_data": {
+            "coverage": 100,
+            "covers": [
+                "torso",
+                "leg_l",
+                "leg_r"
+            ]
+        },
+        "color": "blue",
+        "description": "\u98fe\u308a\u6c17\u306e\u306a\u3044\u5973\u5b66\u751f\u306e\u6c34\u7740\u3067\u3059\u3002",
+        "flags": [
+            "VARSIZE",
+            "SKINTIGHT",
+            "FANCY",
+            "WATER_FRIENDLY"
+        ],
+        "id": "kawaii_sukumizu_kon",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "\u30b9\u30af\u30fc\u30eb\u6c34\u7740(\u7d3a)[kawaii]",
+        "price": 90000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "500 ml",
+        "warmth": 0,
+        "weight": 100
+    },
+    {
+        "armor_data": {
+            "coverage": 100,
+            "covers": [
+                "torso",
+                "leg_l",
+                "leg_r"
+            ]
+        },
+        "color": "blue",
+        "description": "\u98fe\u308a\u6c17\u306e\u306a\u3044\u5973\u5b66\u751f\u306e\u6c34\u7740\u3067\u3059\u3002",
+        "flags": [
+            "VARSIZE",
+            "SKINTIGHT",
+            "FANCY",
+            "WATER_FRIENDLY"
+        ],
+        "id": "kawaii_sukumizu_siro",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "\u30b9\u30af\u30fc\u30eb\u6c34\u7740(\u767d)[kawaii]",
+        "price": 90000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "500 ml",
+        "warmth": 0,
+        "weight": 100
+    },
+    {
+        "armor_data": {
+            "coverage": 85,
+            "covers": [
+                "torso",
+                "arm_l",
+                "arm_r",
+                "leg_l",
+                "leg_r"
+            ]
+        },
+        "color": "blue",
+        "description": "\u770b\u8b77\u5e2b\u306e\u767d\u8863\u3067\u3059\u3002",
+        "encumbrance": 4,
+        "flags": [
+            "VARSIZE",
+            "FANCY"
+        ],
+        "id": "kawaii_nurse",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "max_encumbrance": 6,
+        "name": "\u30ca\u30fc\u30b9\u670d[kawaii]",
+        "pocket_data": [
+            {
+                "max_contains_volume": "4 L",
+                "max_contains_weight": "8 kg",
+                "moves": 80,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            },
+            {
+                "max_contains_volume": "4 L",
+                "max_contains_weight": "8 kg",
+                "moves": 80,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            },
+            {
+                "max_contains_volume": "2 L",
+                "max_contains_weight": "2 kg",
+                "moves": 120,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            },
+            {
+                "max_contains_volume": "2 L",
+                "max_contains_weight": "2 kg",
+                "moves": 120,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            }
+        ],
+        "price": 50000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "1 L",
+        "warmth": 5,
+        "weight": 200
+    },
+    {
+        "armor_data": {
+            "coverage": 15,
+            "covers": [
+                "leg_l",
+                "leg_r"
+            ]
+        },
+        "color": "white",
+        "description": "Pure white panties, very breathable and comfortable even in summer.",
+        "flags": [
+            "VARSIZE",
+            "SKINTIGHT",
+            "FANCY"
+        ],
+        "id": "kawaii_maid_panties",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "Cute White Panties",
+        "price": 1000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "warmth": 0,
+        "weight": 32
+    },
+    {
+        "armor_data": {
+            "coverage": 15,
+            "covers": [
+                "torso"
+            ]
+        },
+        "color": "white",
+        "description": "Pure white bra, very breathable and comfortable even in summer.",
+        "flags": [
+            "VARSIZE",
+            "SKINTIGHT",
+            "FANCY"
+        ],
+        "id": "kawaii_maid_bra",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "Cute White Bra",
+        "price": 1000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "warmth": 0,
+        "weight": 32
+    },
+    {
+        "armor_data": {
+            "coverage": 15,
+            "covers": [
+                "leg_l",
+                "leg_r"
+            ]
+        },
+        "color": "white",
+        "description": "Panties with pink stripes.",
+        "flags": [
+            "VARSIZE",
+            "SKINTIGHT",
+            "FANCY"
+        ],
+        "id": "kawaii_maid_simapan_pink",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Pink Striped Panties",
+        "price": 1000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "warmth": 5,
+        "weight": 32
+    },
+    {
+        "armor_data": {
+            "coverage": 15,
+            "covers": [
+                "torso"
+            ]
+        },
+        "color": "white",
+        "description": "A bra with pink stripes.",
+        "flags": [
+            "VARSIZE",
+            "SKINTIGHT",
+            "FANCY"
+        ],
+        "id": "kawaii_maid_simabura_pink",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Pink Striped Bra",
+        "price": 1000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "warmth": 5,
+        "weight": 32
+    },
+    {
+        "armor_data": {
+            "coverage": 15,
+            "covers": [
+                "leg_l",
+                "leg_r"
+            ]
+        },
+        "color": "white",
+        "description": "Panties with green stripes.",
+        "flags": [
+            "VARSIZE",
+            "SKINTIGHT",
+            "FANCY"
+        ],
+        "id": "kawaii_maid_simapan_green",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Green Striped Panties",
+        "price": 1000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "warmth": 5,
+        "weight": 32
+    },
+    {
+        "armor_data": {
+            "coverage": 15,
+            "covers": [
+                "torso"
+            ]
+        },
+        "color": "white",
+        "description": "A bra with green stripes.",
+        "flags": [
+            "VARSIZE",
+            "SKINTIGHT",
+            "FANCY"
+        ],
+        "id": "kawaii_maid_simabura_green",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Green Striped Bra",
+        "price": 1000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "warmth": 5,
+        "weight": 32
+    },
+    {
+        "armor_data": {
+            "coverage": 15,
+            "covers": [
+                "leg_l",
+                "leg_r"
+            ]
+        },
+        "color": "light_red",
+        "description": "A simple black bikini bottom.",
+        "flags": [
+            "VARSIZE",
+            "SKINTIGHT",
+            "WATER_FRIENDLY"
+        ],
+        "id": "kawaii_bikini_bottom_black",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Black Bikini Bottom",
+        "price": 1000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "warmth": 5,
+        "weight": 32
+    },
+    {
+        "armor_data": {
+            "coverage": 10,
+            "covers": [
+                "torso"
+            ]
+        },
+        "color": "light_red",
+        "description": "A simple black bikini top.",
+        "flags": [
+            "VARSIZE",
+            "WATER_FRIENDLY",
+            "SKINTIGHT"
+        ],
+        "id": "kawaii_bikini_top_black",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Black Bikini Top",
+        "price": 1800,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "weight": 32
+    },
+    {
+        "armor_data": {
+            "coverage": 7,
+            "covers": [
+                "leg_l",
+                "leg_r"
+            ]
+        },
+        "color": "pink",
+        "description": "A flared miniskirt that is longer in the back.",
+        "flags": [
+            "VARSIZE",
+            "FANCY"
+        ],
+        "id": "kawaii_tailskirt_mini",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Fishtail Miniskirt",
+        "price": 3000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "weight": 11
+    },
+    {
+        "armor_data": {
+            "coverage": 60,
+            "covers": [
+                "torso"
+            ]
+        },
+        "color": "light_gray",
+        "description": "A modified utility vest with many pockets.",
+        "encumbrance": 3,
+        "flags": [
+            "VARSIZE",
+            "WAIST"
+        ],
+        "id": "kawaii_vest",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 2,
+        "max_encumbrance": 5,
+        "name": "Cute Utility Vest",
+        "pocket_data": [
+            {
+                "max_contains_volume": "4 L",
+                "max_contains_weight": "8 kg",
+                "moves": 120,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            },
+            {
+                "max_contains_volume": "4 L",
+                "max_contains_weight": "8 kg",
+                "moves": 120,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            },
+            {
+                "max_contains_volume": "2 L",
+                "max_contains_weight": "4 kg",
+                "moves": 80,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            },
+            {
+                "max_contains_volume": "2 L",
+                "max_contains_weight": "4 kg",
+                "moves": 80,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            },
+            {
+                "max_contains_volume": "1 L",
+                "max_contains_weight": "2 kg",
+                "moves": 80,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            },
+            {
+                "max_contains_volume": "1 L",
+                "max_contains_weight": "2 kg",
+                "moves": 80,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            }
+        ],
+        "price": 3900,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "1 L",
+        "warmth": 5,
+        "weight": 516
+    },
+    {
+        "armor_data": {
+            "coverage": 25,
+            "covers": [
+                "head"
+            ]
+        },
+        "color": "white",
+        "description": "One of the most important parts of the maid uniform. It is forbidden for maids to take it off, regardless of weather. Trained maids can channel their spirit into it to keep their heads warm during winter. (Toggle to change warmth)",
+        "encumbrance": 2,
+        "flags": [
+            "VARSIZE",
+            "FANCY",
+            "WATERPROOF",
+            "RAINPROOF",
+            "SKINTIGHT"
+        ],
+        "id": "kawaii_maid_hat",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Maid Headdress",
+        "price": 2500,
+        "symbol": "[",
+        "type": "ARMOR",
+        "use_action": {
+            "menu_text": "Channel spirit",
+            "msg": "Your pride as a maid prevents the cold from bothering your head.",
+            "target": "kawaii_maid_hat_kiai",
+            "type": "transform"
+        },
+        "volume": "250 ml",
+        "warmth": 0,
+        "weight": 10
+    },
+    {
+        "armor_data": {
+            "coverage": 25,
+            "covers": [
+                "head"
+            ]
+        },
+        "color": "white",
+        "description": "One of the most important parts of the maid uniform. It is forbidden for maids to take it off, regardless of weather. Trained maids can channel their spirit into it to keep their heads warm during winter. (Toggle to change warmth)",
+        "encumbrance": 2,
+        "flags": [
+            "VARSIZE",
+            "FANCY",
+            "WATERPROOF",
+            "RAINPROOF",
+            "SKINTIGHT"
+        ],
+        "id": "kawaii_maid_hat_kiai",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Maid Headdress",
+        "price": 2500,
+        "repairs_like": "kawaii_maid_hat",
+        "symbol": "[",
+        "type": "ARMOR",
+        "use_action": {
+            "menu_text": "Stop channeling spirit",
+            "msg": "You stop channeling your spirit into te headpiece",
+            "target": "kawaii_maid_hat",
+            "type": "transform"
+        },
+        "volume": "250 ml",
+        "warmth": 30,
+        "weight": 10
+    },
+    {
+        "armor_data": {
+            "coverage": 75,
+            "covers": [
+                "eyes"
+            ]
+        },
+        "color": "cyan",
+        "description": "A maid wearing these will never miss the smallest speck of dust, nor signs of their master's health. (Toggle to adjust position)",
+        "environmental_protection": 1,
+        "flags": [
+            "WATER_FRIENDLY",
+            "FANCY",
+            "FIX_NEARSIGHT",
+            "FIX_FARSIGHT"
+        ],
+        "id": "kawaii_maid_megane_01",
+        "material": [
+            "glass",
+            "plastic"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Black Half-Rim Glasses",
+        "price": 7900,
+        "symbol": "[",
+        "type": "ARMOR",
+        "use_action": {
+            "menu_text": "Adjust the glasses",
+            "msg": "You lower the glasses",
+            "target": "kawaii_maid_megane_02",
+            "type": "transform"
+        },
+        "volume": "250 ml",
+        "weight": 30
+    },
+    {
+        "armor_data": {
+            "coverage": 75,
+            "covers": [
+                "eyes"
+            ]
+        },
+        "color": "cyan",
+        "description": "A maid wearing these will never miss the smallest speck of dust, nor signs of their master's health. (Toggle to adjust position)",
+        "environmental_protection": 1,
+        "flags": [
+            "WATER_FRIENDLY",
+            "FANCY",
+            "FIX_NEARSIGHT",
+            "FIX_FARSIGHT"
+        ],
+        "id": "kawaii_maid_megane_02",
+        "material": [
+            "glass",
+            "plastic"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Black Half-Rim Glasses",
+        "price": 7900,
+        "symbol": "[",
+        "type": "ARMOR",
+        "use_action": {
+            "menu_text": "Adjust the glasses",
+            "msg": "You raise the glasses",
+            "target": "kawaii_maid_megane_01",
+            "type": "transform"
+        },
+        "volume": "250 ml",
+        "weight": 30
+    },
+    {
+        "armor_data": {
+            "coverage": 75,
+            "covers": [
+                "eyes"
+            ]
+        },
+        "color": "cyan",
+        "description": "A maid wearing these will never miss the smallest speck of dust, nor signs of their master's health. (Toggle to adjust position)",
+        "environmental_protection": 1,
+        "flags": [
+            "WATER_FRIENDLY",
+            "FANCY",
+            "FIX_NEARSIGHT",
+            "FIX_FARSIGHT"
+        ],
+        "id": "kawaii_maid_megane_03",
+        "material": [
+            "glass",
+            "plastic"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Red Half-Rim Glasses",
+        "price": 7900,
+        "symbol": "[",
+        "type": "ARMOR",
+        "use_action": {
+            "menu_text": "Adjust the glasses",
+            "msg": "You lower the glasses",
+            "target": "kawaii_maid_megane_04",
+            "type": "transform"
+        },
+        "volume": "250 ml",
+        "weight": 30
+    },
+    {
+        "armor_data": {
+            "coverage": 75,
+            "covers": [
+                "eyes"
+            ]
+        },
+        "color": "cyan",
+        "description": "A maid wearing these will never miss the smallest speck of dust, nor signs of their master's health. (Toggle to adjust position)",
+        "environmental_protection": 1,
+        "flags": [
+            "WATER_FRIENDLY",
+            "FANCY",
+            "FIX_NEARSIGHT",
+            "FIX_FARSIGHT"
+        ],
+        "id": "kawaii_maid_megane_04",
+        "material": [
+            "glass",
+            "plastic"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Red Half-Rim Glasses",
+        "price": 7900,
+        "symbol": "[",
+        "type": "ARMOR",
+        "use_action": {
+            "menu_text": "Adjust the glasses",
+            "msg": "You raise the glasses",
+            "target": "kawaii_maid_megane_03",
+            "type": "transform"
+        },
+        "volume": "250 ml",
+        "weight": 30
+    },
+    {
+        "armor_data": {
+            "coverage": 75,
+            "covers": [
+                "eyes"
+            ]
+        },
+        "color": "cyan",
+        "description": "A maid wearing these will never miss the smallest speck of dust, nor signs of their master's health.",
+        "environmental_protection": 1,
+        "flags": [
+            "WATER_FRIENDLY",
+            "FANCY",
+            "FIX_NEARSIGHT",
+            "FIX_FARSIGHT"
+        ],
+        "id": "kawaii_maid_megane_05",
+        "material": [
+            "glass",
+            "plastic"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Black Large Half-Rim Glasses",
+        "price": 7900,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "weight": 30
+    },
+    {
+        "armor_data": {
+            "coverage": 75,
+            "covers": [
+                "eyes"
+            ]
+        },
+        "color": "cyan",
+        "description": "A maid wearing these will never miss the smallest speck of dust, nor signs of their master's health.",
+        "environmental_protection": 1,
+        "flags": [
+            "WATER_FRIENDLY",
+            "FANCY",
+            "FIX_NEARSIGHT",
+            "FIX_FARSIGHT"
+        ],
+        "id": "kawaii_maid_megane_06",
+        "material": [
+            "glass",
+            "plastic"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Brass Monocle",
+        "price": 7900,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "weight": 30
+    },
+    {
+        "armor_data": {
+            "coverage": 75,
+            "covers": [
+                "eyes"
+            ]
+        },
+        "color": "cyan",
+        "description": "A maid wearing these will never miss the smallest speck of dust, nor signs of their master's health.",
+        "environmental_protection": 1,
+        "flags": [
+            "WATER_FRIENDLY",
+            "FANCY",
+            "FIX_NEARSIGHT",
+            "FIX_FARSIGHT"
+        ],
+        "id": "kawaii_maid_megane_07",
+        "material": [
+            "glass",
+            "plastic"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Brass Monocle with Chain",
+        "price": 7900,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "weight": 30
+    },
+    {
+        "armor_data": {
+            "coverage": 75,
+            "covers": [
+                "eyes"
+            ]
+        },
+        "color": "cyan",
+        "description": "A maid wearing these will never miss the smallest speck of dust, nor signs of their master's health.",
+        "environmental_protection": 1,
+        "flags": [
+            "WATER_FRIENDLY",
+            "FANCY",
+            "FIX_NEARSIGHT",
+            "FIX_FARSIGHT"
+        ],
+        "id": "kawaii_maid_megane_08",
+        "material": [
+            "glass",
+            "plastic"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Black Fullframe Glasses",
+        "price": 7900,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "weight": 30
+    },
+    {
+        "armor_data": {
+            "coverage": 75,
+            "covers": [
+                "eyes"
+            ]
+        },
+        "color": "cyan",
+        "description": "A maid wearing these will never miss the smallest speck of dust, nor signs of their master's health.",
+        "environmental_protection": 1,
+        "flags": [
+            "WATER_FRIENDLY",
+            "FANCY",
+            "FIX_NEARSIGHT",
+            "FIX_FARSIGHT"
+        ],
+        "id": "kawaii_maid_megane_09",
+        "material": [
+            "glass",
+            "plastic"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Red Fullframe Glasses",
+        "price": 7900,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "weight": 30
+    },
+    {
+        "armor_data": {
+            "coverage": 65,
+            "covers": [
+                "head"
+            ]
+        },
+        "color": "dark_gray",
+        "description": "It's a warm hat made of cotton, coloured white to better match a maid uniform.",
+        "id": "kawaii_hat_cotton",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "Cute White Cotton Hat",
+        "price": 2000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "warmth": 20,
+        "weight": 78
+    },
+    {
+        "armor_data": {
+            "coverage": 95,
+            "covers": [
+                "head",
+                "mouth"
+            ]
+        },
+        "color": "dark_gray",
+        "description": "'I refuse to cover up my cute face!' It's not as good against the cold as a normal balaclava, but it's a sacrifice necessary for the sake of fashion.",
+        "encumbrance": 2,
+        "flags": [
+            "VARSIZE",
+            "SKINTIGHT"
+        ],
+        "id": "kawaii_balclava",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 2,
+        "name": "Cute Balaclava",
+        "price": 3500,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "warmth": 25,
+        "weight": 40
+    },
+    {
+        "armor_data": {
+            "coverage": 70,
+            "covers": [
+                "head"
+            ]
+        },
+        "color": "white",
+        "description": "A beautiful but simple wedding veil.",
+        "encumbrance": 2,
+        "flags": [
+            "VARSIZE",
+            "FANCY"
+        ],
+        "id": "kawaii_wedding_veil_a",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Wedding Veil",
+        "price": 5000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "warmth": 15,
+        "weight": 10
+    },
+    {
+        "armor_data": {
+            "coverage": 70,
+            "covers": [
+                "head"
+            ]
+        },
+        "color": "white",
+        "description": "A beautiful wedding veil with additional adornments.",
+        "encumbrance": 2,
+        "flags": [
+            "VARSIZE",
+            "FANCY"
+        ],
+        "id": "kawaii_wedding_veil_b",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Decorated Wedding Veil",
+        "price": 5000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "warmth": 15,
+        "weight": 10
+    },
+    {
+        "armor_data": {
+            "coverage": 95,
+            "covers": [
+                "head"
+            ]
+        },
+        "color": "white",
+        "description": "A veil worn by those devoted to serving God.",
+        "encumbrance": 2,
+        "flags": [
+            "VARSIZE",
+            "FANCY"
+        ],
+        "id": "kawaii_sister_veil",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Nun's Headpiece",
+        "price": 5000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "warmth": 5,
+        "weight": 10
+    },
+    {
+        "armor_data": {
+            "coverage": 95,
+            "covers": [
+                "head"
+            ]
+        },
+        "color": "white",
+        "description": "\u770b\u8b77\u5e2b\u3092\u8c61\u5fb4\u3059\u308b\u5e3d\u5b50\u3067\u3059\u3002",
+        "encumbrance": 2,
+        "flags": [
+            "VARSIZE",
+            "FANCY"
+        ],
+        "id": "kawaii_nurse_cap",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "\u30ca\u30fc\u30b9\u5e3d[kawaii]",
+        "price": 5000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "warmth": 5,
+        "weight": 10
+    },
+    {
+        "color": "white",
+        "description": "\u30e1\u30a4\u30af\u3067\u306f\u3042\u308a\u307e\u305b\u3093\u3002\u4e59\u5973\u5fc3\u3067\u3059\u3002",
+        "flags": [
+            "ZERO_WEIGHT"
+        ],
+        "id": "kawaii_acc_hobeni",
+        "name": "\u982c\u7d05[kawaii]",
+        "symbol": "[",
+        "type": "ARMOR"
+    },
+    {
+        "color": "white",
+        "description": "\u6d3b\u529b\u3092\u611f\u3058\u308b\u76ee\u306e\u30cf\u30a4\u30e9\u30a4\u30c8\u3067\u3059\u3002(\u30cf\u30a4\u30e9\u30a4\u30c8\u306e\u7121\u3044\u76ee\u7528\u306e\u5f8c\u4ed8\u3051\u30cf\u30a4\u30e9\u30a4\u30c8\u3067\u3059)",
+        "flags": [
+            "ZERO_WEIGHT"
+        ],
+        "id": "kawaii_acc_eye_light",
+        "name": "\u8f1d\u304f\u76ee[kawaii]",
+        "symbol": "[",
+        "type": "ARMOR"
+    },
+    {
+        "color": "white",
+        "description": "\u60aa\u3044\u4e8b\u3092\u8003\u3048\u3066\u3044\u308b\u9854\u3067\u3059\u3002",
+        "flags": [
+            "ZERO_WEIGHT"
+        ],
+        "id": "kawaii_acc_darkface",
+        "name": "\u60aa\u3044\u9854[kawaii]",
+        "symbol": "[",
+        "type": "ARMOR"
+    },
+    {
+        "color": "white",
+        "description": "\u6b21\u4e16\u4ee3\u6280\u8853\u306e\u8a70\u307e\u3063\u305f\u30cf\u30a4\u30c6\u30af\u30d8\u30c3\u30c9\u30bb\u30c3\u30c8\u3067\u3059\u3002(\u98fe\u308a\u3067\u3059)",
+        "flags": [
+            "ZERO_WEIGHT"
+        ],
+        "id": "kawaii_acc_headset",
+        "name": "\u30cf\u30a4\u30c6\u30af\u30d8\u30c3\u30c9\u30bb\u30c3\u30c8[kawaii]",
+        "symbol": "[",
+        "type": "ARMOR"
+    },
+    {
+        "color": "white",
+        "description": "\u30cf\u30fc\u30c8\u306e\u30a8\u30d5\u30a7\u30af\u30c8\u3067\u3059\u3002",
+        "flags": [
+            "ZERO_WEIGHT"
+        ],
+        "id": "kawaii_eff_heart",
+        "name": "(\u30a8\u30d5\u30a7\u30af\u30c8)\u30cf\u30fc\u30c8[kawaii]",
+        "symbol": "[",
+        "type": "ARMOR"
+    },
+    {
+        "color": "white",
+        "description": "\uff1f\u306e\u5439\u304d\u51fa\u3057\u3067\u3059\u3002",
+        "flags": [
+            "ZERO_WEIGHT"
+        ],
+        "id": "kawaii_eff_hatena",
+        "name": "(\u30a8\u30d5\u30a7\u30af\u30c8)\uff1f\u306e\u5439\u304d\u51fa\u3057[kawaii]",
+        "symbol": "[",
+        "type": "ARMOR"
+    },
+    {
+        "color": "white",
+        "description": "\uff01\u306e\u5439\u304d\u51fa\u3057\u3067\u3059\u3002",
+        "flags": [
+            "ZERO_WEIGHT"
+        ],
+        "id": "kawaii_eff_bikkuri",
+        "name": "(\u30a8\u30d5\u30a7\u30af\u30c8)\uff01\u306e\u5439\u304d\u51fa\u3057[kawaii]",
+        "symbol": "[",
+        "type": "ARMOR"
+    },
+    {
+        "color": "white",
+        "description": "\u6c57\u30de\u30fc\u30af\u306e\u5439\u304d\u51fa\u3057\u3067\u3059\u3002",
+        "flags": [
+            "ZERO_WEIGHT"
+        ],
+        "id": "kawaii_eff_ase",
+        "name": "(\u30a8\u30d5\u30a7\u30af\u30c8)\u6c57\u306e\u5439\u304d\u51fa\u3057[kawaii]",
+        "symbol": "[",
+        "type": "ARMOR"
+    },
+    {
+        "color": "white",
+        "description": "\u7167\u308c\u306e\u5439\u304d\u51fa\u3057\u3067\u3059\u3002",
+        "flags": [
+            "ZERO_WEIGHT"
+        ],
+        "id": "kawaii_eff_tere",
+        "name": "(\u30a8\u30d5\u30a7\u30af\u30c8)///\u306e\u5439\u304d\u51fa\u3057[kawaii]",
+        "symbol": "[",
+        "type": "ARMOR"
+    },
+    {
+        "color": "white",
+        "description": "\u30d1\u30eb\u30c3\u30af\u3067\u306f\u3042\u308a\u307e\u305b\u3093\u3002",
+        "flags": [
+            "ZERO_WEIGHT"
+        ],
+        "id": "kawaii_acc_angelring",
+        "name": "\u5929\u4f7f\u306e\u5149\u8f2a[kawaii]",
+        "symbol": "[",
+        "type": "ARMOR"
+    },
+    {
+        "armor_data": {
+            "coverage": 40,
+            "covers": [
+                "torso"
+            ]
+        },
+        "color": "dark_gray",
+        "description": "A huge rectangular hardcase. Normally used for carrying large musical instruments, sniper rifles, or sensitive electrical equipment.",
+        "encumbrance": 5,
+        "flags": [
+            "BELTED"
+        ],
+        "id": "kawaii_maid_hardcase",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 2,
+        "max_encumbrance": 30,
+        "name": "Cute Hardcase",
+        "pocket_data": [
+            {
+                "max_contains_volume": "28 L",
+                "max_contains_weight": "50 kg",
+                "moves": 270,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            }
+        ],
+        "price": 12000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "6 L",
+        "warmth": 0,
+        "weight": "933 g"
+    },
+    {
+        "armor_data": {
+            "coverage": 20,
+            "covers": [
+                "torso"
+            ]
+        },
+        "color": "dark_gray",
+        "description": "A smaller version of the standard hardcase.",
+        "encumbrance": 4,
+        "flags": [
+            "BELTED"
+        ],
+        "id": "kawaii_maid_hardcase_mini",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 2,
+        "max_encumbrance": 18,
+        "name": "Cute Mini-Hardcase",
+        "pocket_data": [
+            {
+                "max_contains_volume": "20 L",
+                "max_contains_weight": "30 kg",
+                "moves": 240,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            }
+        ],
+        "price": 8000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "3 L",
+        "warmth": 0,
+        "weight": 650
+    },
+    {
+        "armor_data": {
+            "coverage": 20,
+            "covers": [
+                "torso"
+            ]
+        },
+        "color": "dark_gray",
+        "description": "A slimmer version of the hardcase.",
+        "encumbrance": 2,
+        "flags": [
+            "BELTED"
+        ],
+        "id": "kawaii_maid_hardcase_slim",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 2,
+        "max_encumbrance": 8,
+        "name": "Cute Slim Hardcase",
+        "pocket_data": [
+            {
+                "max_contains_volume": "10 L",
+                "max_contains_weight": "25 kg",
+                "moves": 150,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            }
+        ],
+        "price": 8000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "2250 ml",
+        "warmth": 0,
+        "weight": 400
+    },
+    {
+        "copy-from": "kawaii_maid_hardcase",
+        "description": "\u5929\u4f7f\u306e\u5305\u5bb9\u529b\u3092\u3082\u3063\u3066\u3059\u308c\u3070\u7269\u3092\u6301\u3064\u4e8b\u306a\u3069\u9020\u4f5c\u3082\u306a\u3044\u4e8b\u3067\u3059\u3002",
+        "id": "kawaii_angel_wing_bag",
+        "name": "\u5929\u4f7f\u306e\u7fbd[kawaii]",
+        "type": "ARMOR"
+    },
+    {
+        "armor_data": {
+            "coverage": 5,
+            "covers": [
+                "leg_l"
+            ]
+        },
+        "color": "dark_gray",
+        "description": "A small storage purse that can be consealed beneath a skirt, held up using a garter band.",
+        "encumbrance": 1,
+        "flags": [
+            "WAIST",
+            "WATER_FRIENDLY"
+        ],
+        "id": "kawaii_secretpoach",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 2,
+        "max_encumbrance": 2,
+        "name": "Cute Garter Purse",
+        "pocket_data": [
+            {
+                "max_contains_volume": "1500 ml",
+                "max_contains_weight": "2 kg",
+                "moves": 150,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            }
+        ],
+        "price": 3000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "500 ml",
+        "weight": 250
+    },
+    {
+        "armor_data": {
+            "coverage": 75,
+            "covers": [
+                "foot_l",
+                "foot_r"
+            ]
+        },
+        "color": "dark_gray",
+        "description": "A pair of frilly kneesocks. Its thick material keeps the wearer's legs warm.",
+        "encumbrance": 3,
+        "flags": [
+            "SKINTIGHT",
+            "FANCY"
+        ],
+        "id": "kawaii_maid_niso_thick",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Thick Knee-High Stockings",
+        "price": 500,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "warmth": 35,
+        "weight": 90
+    },
+    {
+        "armor_data": {
+            "coverage": 75,
+            "covers": [
+                "foot_l",
+                "foot_r"
+            ]
+        },
+        "color": "dark_gray",
+        "description": "A pair of frilly kneesocks. Its thin enough to be slightly transparent when worn.",
+        "flags": [
+            "SKINTIGHT",
+            "FANCY"
+        ],
+        "id": "kawaii_maid_niso_thin",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Thin Knee-High Stockings",
+        "price": 500,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "warmth": 0,
+        "weight": 40
+    },
+    {
+        "armor_data": {
+            "coverage": 95,
+            "covers": [
+                "foot_l",
+                "foot_r",
+                "leg_l",
+                "leg_r"
+            ]
+        },
+        "color": "dark_gray",
+        "description": "A pair of warm tights.",
+        "encumbrance": 4,
+        "flags": [
+            "SKINTIGHT",
+            "FANCY"
+        ],
+        "id": "kawaii_tights_black",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Black Tights",
+        "price": 5000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "500 ml",
+        "warmth": 40,
+        "weight": 200
+    },
+    {
+        "armor_data": {
+            "coverage": 95,
+            "covers": [
+                "foot_l",
+                "foot_r",
+                "leg_l",
+                "leg_r"
+            ]
+        },
+        "color": "dark_gray",
+        "description": "A pair of warm tights.",
+        "encumbrance": 4,
+        "flags": [
+            "SKINTIGHT",
+            "FANCY"
+        ],
+        "id": "kawaii_tights_white",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "Cute White Tights",
+        "price": 5000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "500 ml",
+        "warmth": 40,
+        "weight": 200
+    },
+    {
+        "armor_data": {
+            "coverage": 50,
+            "covers": [
+                "foot_l",
+                "foot_r"
+            ]
+        },
+        "color": "dark_gray",
+        "description": "A pair of white socks normally worn by students.",
+        "encumbrance": 1,
+        "flags": [
+            "SKINTIGHT"
+        ],
+        "id": "kawaii_socks_white",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "Cute White Socks",
+        "price": 500,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "warmth": 5,
+        "weight": 10
+    },
+    {
+        "armor_data": {
+            "coverage": 10,
+            "covers": [
+                "leg_l",
+                "leg_r"
+            ]
+        },
+        "color": "dark_gray",
+        "description": "A black garter belt, designed to be worn with stockings.",
+        "flags": [
+            "SKINTIGHT"
+        ],
+        "id": "kawaii_maid_garter",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Garter Belt",
+        "price": 1500,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "warmth": 0,
+        "weight": 10
+    },
+    {
+        "armor_data": {
+            "coverage": 60,
+            "covers": [
+                "foot_l",
+                "foot_r"
+            ]
+        },
+        "color": "dark_gray",
+        "description": "Leather shoes designed to be worn with a maid uniform.",
+        "encumbrance": 2,
+        "flags": [
+            "FANCY"
+        ],
+        "id": "kawaii_dress_shoes",
+        "material": [
+            "leather"
+        ],
+        "material_thickness": 2,
+        "name": "Cute Dress Shoes",
+        "price": 12000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "1250 ml",
+        "warmth": 5,
+        "weight": 500
+    },
+    {
+        "armor_data": {
+            "coverage": 60,
+            "covers": [
+                "foot_l",
+                "foot_r"
+            ]
+        },
+        "color": "dark_gray",
+        "description": "A pair of brown loafers normally worn by students.",
+        "encumbrance": 2,
+        "flags": [
+            "FANCY"
+        ],
+        "id": "kawaii_loafer",
+        "material": [
+            "leather"
+        ],
+        "material_thickness": 2,
+        "name": "Cute Brown Loafers",
+        "price": 12000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "1250 ml",
+        "warmth": 5,
+        "weight": 400
+    },
+    {
+        "armor_data": {
+            "coverage": 90,
+            "covers": [
+                "foot_l",
+                "foot_r"
+            ]
+        },
+        "color": "dark_gray",
+        "description": "Leather boots that can be worn with a wide range of outfits.",
+        "encumbrance": 6,
+        "environmental_protection": 2,
+        "flags": [
+            "FANCY",
+            "WATERPROOF"
+        ],
+        "id": "kawaii_boots",
+        "material": [
+            "leather"
+        ],
+        "material_thickness": 3,
+        "name": "Cute Boots",
+        "price": 25000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "2 L",
+        "warmth": 20,
+        "weight": 800
+    },
+    {
+        "armor_data": {
+            "coverage": 100,
+            "covers": [
+                "foot_l",
+                "foot_r"
+            ]
+        },
+        "color": "white",
+        "description": "Pure white boots that only chosen maids are allowed to wear. They give the wearer a feeling of majesty.",
+        "encumbrance": 12,
+        "environmental_protection": 10,
+        "flags": [
+            "FANCY",
+            "WATERPROOF",
+            "STURDY"
+        ],
+        "id": "kawaii_boots_hi",
+        "material": [
+            "kevlar",
+            "nomex"
+        ],
+        "material_thickness": 7,
+        "name": "Cute Maid Heeled Boots",
+        "price": 85000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "1250 ml",
+        "warmth": 30,
+        "weight": 600
+    },
+    {
+        "armor_data": {
+            "coverage": 100,
+            "covers": [
+                "foot_l",
+                "foot_r"
+            ]
+        },
+        "color": "white",
+        "description": "Pure white heels that only chosen maids are allowed to wear. They give the wearer a feeling of majesty.",
+        "encumbrance": 7,
+        "environmental_protection": 10,
+        "flags": [
+            "FANCY",
+            "WATERPROOF",
+            "STURDY"
+        ],
+        "id": "kawaii_shoes_hi",
+        "material": [
+            "kevlar",
+            "nomex"
+        ],
+        "material_thickness": 5,
+        "name": "Cute Maid Heels",
+        "price": 55000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "750 ml",
+        "warmth": 2,
+        "weight": 400
+    },
+    {
+        "armor_data": {
+            "coverage": 95,
+            "covers": [
+                "hand_l",
+                "hand_r"
+            ]
+        },
+        "color": "light_blue",
+        "description": "\u63a7\u3048\u76ee\u306a\u30ec\u30fc\u30b9\u3067\u88c5\u98fe\u3055\u308c\u305f\u30e1\u30a4\u30c9\u3055\u3093\u306e\u624b\u888b\u3067\u3059\u3002",
+        "encumbrance": 2,
+        "flags": [
+            "WATER_FRIENDLY"
+        ],
+        "id": "kawaii_gloves_light",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 2,
+        "name": "\u30e1\u30a4\u30c9\u624b\u888b[kawaii]",
+        "price": 1100,
+        "symbol": "[",
+        "to_hit": 1,
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "warmth": 20,
+        "weight": 118
+    },
+    {
+        "color": "white",
+        "coverage": 70,
+        "covers": [
+            "HEAD"
+        ],
+        "description": "Kawaii\u5411\u3051\u3042\u307b\u3052\u3067\u3059\u3002\u77e5\u80fd\u304c\u4e0b\u304c\u308a\u305d\u3046\u3067\u3059\u3002(\u4e0b\u304c\u308a\u307e\u305b\u3093)",
+        "encumbrance": 5,
+        "flags": [
+            "FANCY"
+        ],
+        "id": "kawaii_sm_ahoge",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "\u3042\u307b\u3052[SM]",
+        "price": 5000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": 1,
+        "warmth": 15,
+        "weight": 10
+    },
+    {
+        "armor_data": {
+            "coverage": 95,
+            "covers": [
+                "torso",
+                "arm_l",
+                "arm_r",
+                "leg_l",
+                "leg_r"
+            ]
+        },
+        "category": "clothing",
+        "color": "brown",
+        "description": "Women's servant clothes worn in Japanese cafes a long time ago. Essentially a white apron over a kimono.",
+        "encumbrance": 9,
+        "environmental_protection": 1,
+        "flags": [
+            "VARSIZE",
+            "FANCY",
+            "OVERSIZE"
+        ],
+        "id": "jokyu_fuku",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 4,
+        "max_encumbrance": 15,
+        "name": {
+            "str": "Jokyu dress",
+            "str_pl": "Jokyu dresses"
+        },
+        "pocket_data": [
+            {
+                "max_contains_volume": "2 L",
+                "max_contains_weight": "5 kg",
+                "max_item_length": "15 cm",
+                "moves": 120,
+                "pocket_type": "CONTAINER"
+            }
+        ],
+        "price": 5000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "5 L",
+        "warmth": 20,
+        "weight": "1200 g"
+    },
+    {
+        "armor_data": {
+            "coverage": 85,
+            "covers": [
+                "foot_l",
+                "foot_r",
+                "leg_l",
+                "leg_r"
+            ]
+        },
+        "category": "clothing",
+        "color": "white",
+        "description": "A set of pure white stockings with garterbelt and panties, decorated with elegant lacing.",
+        "flags": [
+            "VARSIZE",
+            "SKINTIGHT",
+            "SUPER_FANCY",
+            "OVERSIZE"
+        ],
+        "id": "stockings_lace",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": {
+            "str": "lace stockings with garterbelt",
+            "str_pl": "lace stockings with garterbelts"
+        },
+        "price": 500,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "warmth": 6,
+        "weight": "90 g"
+    },
+    {
+        "armor_data": {
+            "coverage": 60,
+            "covers": [
+                "head"
+            ]
+        },
+        "category": "clothing",
+        "color": "white",
+        "description": "A frilly white cap commonly used by maids.",
+        "flags": [
+            "VARSIZE"
+        ],
+        "id": "maid_cap",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": {
+            "str": "maid cap"
+        },
+        "price": 2000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "warmth": 30,
+        "weight": "50 g"
+    },
+    {
+        "armor_data": {
+            "coverage": 0,
+            "covers": [
+                "head"
+            ]
+        },
+        "category": "clothing",
+        "color": "white",
+        "description": "A frilly white headband commonly used by maids. Something seems off about it.",
+        "flags": [
+            "VARSIZE",
+            "STURDY",
+            "FANCY"
+        ],
+        "id": "maid_cap_shoggoth",
+        "looks_like": "maid_cap",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": {
+            "str": "strange maid headband"
+        },
+        "price": 2000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "warmth": 30,
+        "weight": "50 g"
+    },
+    {
+        "armor_data": {
+            "coverage": 60,
+            "covers": [
+                "head"
+            ]
+        },
+        "category": "clothing",
+        "color": "white",
+        "description": "A frilly white cap commonly used by maids. There's two bumps on top of it that look like cat ears. It's very cute.",
+        "flags": [
+            "VARSIZE",
+            "FANCY"
+        ],
+        "id": "cat_maid_cap",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": {
+            "str": "cat eared maid cap"
+        },
+        "price": 2000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "warmth": 30,
+        "weight": "60 g"
+    },
+    {
+        "category": "clothing",
+        "color": "white",
+        "description": "A type of frilly undergarment usually worn under skirts.",
+        "flags": [
+            "SUPER_FANCY"
+        ],
+        "id": "petticoat",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": {
+            "str": "petticoat",
+            "str_pl": "petticoats"
+        },
+        "price": 500,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "weight": "90 g"
+    },
+    {
+        "armor_data": {
+            "coverage": 15,
+            "covers": [
+                "leg_l",
+                "leg_r"
+            ]
+        },
+        "category": "clothing",
+        "color": "white",
+        "description": "A special type of underwear meant for people with tails. Although it's incredibly thin, it's the last line of defense for your dignity.",
+        "flags": [
+            "VARSIZE",
+            "SKINTIGHT",
+            "OVERSIZE"
+        ],
+        "id": "panties_kemo",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": {
+            "str": "tail panties",
+            "str_pl": "tail panties"
+        },
+        "price": 5000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "warmth": 5,
+        "weight": "100 g"
+    },
+    {
+        "armor_data": {
+            "coverage": 15,
+            "covers": [
+                "leg_l",
+                "leg_r"
+            ]
+        },
+        "color": "white",
+        "description": "A special type of underwear meant for people with tails. It stands as the difference between being a gentleman and being a beast.",
+        "flags": [
+            "VARSIZE",
+            "SKINTIGHT",
+            "OVERSIZE"
+        ],
+        "id": "briefs_kemo",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": {
+            "str": "tail briefs",
+            "str_pl": "tail briefs"
+        },
+        "price": 1000,
+        "symbol": "[",
+        "type": "ARMOR",
+        "volume": "250 ml",
+        "warmth": 5,
+        "weight": "32 g"
+    },
+    {
+        "color": "white",
+        "description": "A wig with long, wavy pink hair.",
+        "flags": [
+            "ZERO_WEIGHT"
+        ],
+        "id": "kawaii_wig_01",
+        "name": "Cute Long Wavy Pink Wig",
+        "symbol": "[",
+        "type": "ARMOR"
+    },
+    {
+        "color": "white",
+        "description": "\u304a\u59c9\u3055\u3093\u529b\u304c\u4e0a\u304c\u308b\u767d\u3044\u30ea\u30dc\u30f3\u4ed8\u304d\u306e\u304a\u3055\u3052\u3067\u3059\u3002",
+        "flags": [
+            "ZERO_WEIGHT"
+        ],
+        "id": "kawaii_wig_02",
+        "name": "\u30a6\u30a3\u30c3\u30b0(\u304a\u3055\u3052\u30fb\u30b4\u30fc\u30eb\u30c9)[kawaii]",
+        "symbol": "[",
+        "type": "ARMOR"
+    },
+    {
+        "color": "white",
+        "description": "\u767d\u3044\u30ea\u30dc\u30f3\u4ed8\u304d\u3067\u512a\u96c5\u306a\u30ed\u30f3\u30b0\u30dd\u30cb\u30fc\u30c6\u30fc\u30eb\u306e\u30a8\u30af\u30b9\u30c6\u3067\u3059\u3002",
+        "flags": [
+            "ZERO_WEIGHT"
+        ],
+        "id": "kawaii_wig_03",
+        "name": "\u30a8\u30af\u30b9\u30c6(\u30ed\u30f3\u30b0\u30dd\u30cb\u30c6\u30fb\u30b4\u30fc\u30eb\u30c9)[kawaii]",
+        "symbol": "[",
+        "type": "ARMOR"
+    },
+    {
+        "color": "white",
+        "description": "\u3075\u308f\u3063\u3068\u3057\u305f\u30dc\u30d6\u30d8\u30a2\u30fc\u3067\u3059\u3002",
+        "flags": [
+            "ZERO_WEIGHT"
+        ],
+        "id": "kawaii_wig_04",
+        "name": "\u30a6\u30a3\u30c3\u30b0(\u30dc\u30d6\u30fb\u30b4\u30fc\u30eb\u30c9)[kawaii]",
+        "symbol": "[",
+        "type": "ARMOR"
+    },
+    {
+        "color": "white",
+        "description": "\u3075\u308f\u3063\u3068\u3057\u305f\u30dc\u30d6\u30d8\u30a2\u30fc\u3067\u3059\u3002",
+        "flags": [
+            "ZERO_WEIGHT"
+        ],
+        "id": "kawaii_wig_05",
+        "name": "\u30a6\u30a3\u30c3\u30b0(\u30dc\u30d6\u30fb\u30df\u30eb\u30af\u30c6\u30a3)[kawaii]",
+        "symbol": "[",
+        "type": "ARMOR"
+    },
+    {
+        "color": "white",
+        "description": "\u3075\u308f\u3063\u3068\u3057\u305f\u30dc\u30d6\u30d8\u30a2\u30fc\u3067\u3059\u3002",
+        "flags": [
+            "ZERO_WEIGHT"
+        ],
+        "id": "kawaii_wig_06",
+        "name": "\u30a6\u30a3\u30c3\u30b0(\u30dc\u30d6\u30fb\u30d4\u30f3\u30af)[kawaii]",
+        "symbol": "[",
+        "type": "ARMOR"
+    },
+    {
+        "color": "white",
+        "description": "\u7247\u76ee\u3092\u96a0\u3057\u305f\u30d8\u30a2\u30b9\u30bf\u30a4\u30eb\u3067\u3059\u3002",
+        "flags": [
+            "ZERO_WEIGHT"
+        ],
+        "id": "kawaii_wig_07",
+        "name": "\u30a6\u30a3\u30c3\u30b0(\u7247\u76ee\u30fb\u30d6\u30eb\u30fc)[kawaii]",
+        "symbol": "[",
+        "type": "ARMOR"
+    },
+    {
+        "color": "white",
+        "description": "\u7247\u76ee\u3092\u96a0\u3057\u305f\u30d8\u30a2\u30b9\u30bf\u30a4\u30eb\u3067\u3059\u3002",
+        "flags": [
+            "ZERO_WEIGHT"
+        ],
+        "id": "kawaii_wig_08",
+        "name": "\u30a6\u30a3\u30c3\u30b0(\u7247\u76ee\u30fb\u30d4\u30f3\u30af)[kawaii]",
+        "symbol": "[",
+        "type": "ARMOR"
+    },
+    {
+        "color": "white",
+        "description": "\u7247\u76ee\u3092\u96a0\u3057\u305f\u30d8\u30a2\u30b9\u30bf\u30a4\u30eb\u3067\u3059\u3002",
+        "flags": [
+            "ZERO_WEIGHT"
+        ],
+        "id": "kawaii_wig_09",
+        "name": "\u30a6\u30a3\u30c3\u30b0(\u7247\u76ee\u30fb\u30b7\u30eb\u30d0\u30fc)[kawaii]",
+        "symbol": "[",
+        "type": "ARMOR"
+    },
+    {
+        "color": "white",
+        "description": "\u30a8\u30eb\u30d5\u3092\u30a4\u30e1\u30fc\u30b8\u3057\u305f\u30d8\u30a2\u30b9\u30bf\u30a4\u30eb\u3067\u3059\u3002",
+        "flags": [
+            "ZERO_WEIGHT"
+        ],
+        "id": "kawaii_wig_10",
+        "name": "\u30a6\u30a3\u30c3\u30b0(\u30a8\u30eb\u30d5\u30fb\u30e9\u30a4\u30c8\u30b0\u30ea\u30fc\u30f3)[kawaii]",
+        "symbol": "[",
+        "type": "ARMOR"
+    },
+    {
+        "color": "white",
+        "description": "\u30a8\u30eb\u30d5\u3092\u30a4\u30e1\u30fc\u30b8\u3057\u305f\u30d8\u30a2\u30b9\u30bf\u30a4\u30eb\u3067\u3059\u3002",
+        "flags": [
+            "ZERO_WEIGHT"
+        ],
+        "id": "kawaii_wig_11",
+        "name": "\u30a6\u30a3\u30c3\u30b0(\u30a8\u30eb\u30d5\u30fb\u30b4\u30fc\u30eb\u30c9)[kawaii]",
+        "symbol": "[",
+        "type": "ARMOR"
+    },
+    {
+        "color": "white",
+        "description": "\u843d\u3061\u7740\u3044\u305f\u30bb\u30df\u30ed\u30f3\u30b0\u3067\u3059\u3002",
+        "flags": [
+            "ZERO_WEIGHT"
+        ],
+        "id": "kawaii_wig_12",
+        "name": "\u30a6\u30a3\u30c3\u30b0(\u30bb\u30df\u30ed\u30f3\u30b0\u30fb\u30b4\u30fc\u30eb\u30c9)[kawaii]",
+        "symbol": "[",
+        "type": "ARMOR"
+    },
+    {
+        "color": "white",
+        "description": "\u843d\u3061\u7740\u3044\u305f\u30bb\u30df\u30ed\u30f3\u30b0\u3067\u3059\u3002",
+        "flags": [
+            "ZERO_WEIGHT"
+        ],
+        "id": "kawaii_wig_13",
+        "name": "\u30a6\u30a3\u30c3\u30b0(\u30bb\u30df\u30ed\u30f3\u30b0\u30fb\u30df\u30eb\u30af\u30c6\u30a3)[kawaii]",
+        "symbol": "[",
+        "type": "ARMOR"
+    },
+    {
+        "color": "white",
+        "description": "\u843d\u3061\u7740\u3044\u305f\u30bb\u30df\u30ed\u30f3\u30b0\u3067\u3059\u3002",
+        "flags": [
+            "ZERO_WEIGHT"
+        ],
+        "id": "kawaii_wig_14",
+        "name": "\u30a6\u30a3\u30c3\u30b0(\u30bb\u30df\u30ed\u30f3\u30b0\u30fb\u30d6\u30e9\u30c3\u30af)[kawaii]",
+        "symbol": "[",
+        "type": "ARMOR"
+    },
+    {
+        "color": "white",
+        "description": "\u843d\u3061\u7740\u3044\u305f\u30bb\u30df\u30ed\u30f3\u30b0\u3067\u3059\u3002",
+        "flags": [
+            "ZERO_WEIGHT"
+        ],
+        "id": "kawaii_wig_15",
+        "name": "\u30a6\u30a3\u30c3\u30b0(\u30bb\u30df\u30ed\u30f3\u30b0\u30fb\u30b7\u30eb\u30d0\u30fc)[kawaii]",
+        "symbol": "[",
+        "type": "ARMOR"
+    },
+    {
+        "color": "white",
+        "description": "\u9577\u3044\u9aea\u3092\u8efd\u304f\u307e\u3068\u3081\u307e\u3057\u305f\u3002",
+        "flags": [
+            "ZERO_WEIGHT"
+        ],
+        "id": "kawaii_wig_16",
+        "name": "\u30a6\u30a3\u30c3\u30b0(\u30ed\u30f3\u30b0\u304a\u3055\u3052\u30fb\u30b4\u30fc\u30eb\u30c9)[kawaii]",
+        "symbol": "[",
+        "type": "ARMOR"
+    },
+    {
+        "color": "white",
+        "description": "\u9577\u3044\u9aea\u3092\u8efd\u304f\u307e\u3068\u3081\u307e\u3057\u305f\u3002",
+        "flags": [
+            "ZERO_WEIGHT"
+        ],
+        "id": "kawaii_wig_17",
+        "name": "\u30a6\u30a3\u30c3\u30b0(\u30ed\u30f3\u30b0\u304a\u3055\u3052\u30fb\u30df\u30eb\u30af\u30c6\u30a3)[kawaii]",
+        "symbol": "[",
+        "type": "ARMOR"
+    },
+    {
+        "color": "white",
+        "description": "\u9577\u3044\u9aea\u3092\u8efd\u304f\u307e\u3068\u3081\u307e\u3057\u305f\u3002",
+        "flags": [
+            "ZERO_WEIGHT"
+        ],
+        "id": "kawaii_wig_18",
+        "name": "\u30a6\u30a3\u30c3\u30b0(\u30ed\u30f3\u30b0\u304a\u3055\u3052\u30fb\u30a2\u30a4\u30b9\u30d6\u30eb\u30fc)[kawaii]",
+        "symbol": "[",
+        "type": "ARMOR"
+    }
+]

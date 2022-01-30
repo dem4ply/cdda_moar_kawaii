@@ -1,0 +1,1040 @@
+[
+    {
+        "armor_data": {
+            "coverage": 100,
+            "covers": [
+                "leg_l",
+                "leg_r",
+                "torso",
+                "arm_l",
+                "arm_r"
+            ]
+        },
+        "category": "armor",
+        "color": "green",
+        "description": "The standard maid uniform may not be enough to survive in this dangerous new world. This improved version, while still appearing cute and frilly on the outside, actually conceals an advanced armor liner and climate control systems to better endure even the harshest environments.",
+        "encumbrance": 10,
+        "environmental_protection": 5,
+        "flags": [
+            "VARSIZE",
+            "WATERPROOF",
+            "POCKETS",
+            "RAINPROOF",
+            "STURDY",
+            "FANCY"
+        ],
+        "id": "kawaii_maid_dress_lss",
+        "material": [
+            "kevlar_layered",
+            "cotton"
+        ],
+        "material_thickness": 4,
+        "max_encumbrance": 20,
+        "name": "Cute Maid Uniform LSS-PRO (off)",
+        "pocket_data": [
+            {
+                "max_contains_volume": "2500 ml",
+                "max_contains_weight": "6 kg",
+                "moves": 80,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            },
+            {
+                "max_contains_volume": "2500 ml",
+                "max_contains_weight": "6 kg",
+                "moves": 80,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            },
+            {
+                "max_contains_volume": "1500 ml",
+                "max_contains_weight": "3 kg",
+                "moves": 120,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            },
+            {
+                "max_contains_volume": "1500 ml",
+                "max_contains_weight": "3 kg",
+                "moves": 120,
+                "pocket_type": "CONTAINER",
+                "rigid": false
+            },
+            {
+                "holster": true,
+                "item_restriction": [
+                    "medium_battery_cell",
+                    "medium_plus_battery_cell",
+                    "medium_atomic_battery_cell",
+                    "medium_disposable_cell"
+                ],
+                "max_contains_volume": "20 L",
+                "max_contains_weight": "20 kg",
+                "pocket_type": "MAGAZINE_WELL",
+                "rigid": false
+            }
+        ],
+        "price": 150000,
+        "price_postapoc": 5000,
+        "symbol": "[",
+        "type": "TOOL_ARMOR",
+        "use_action": {
+            "active": true,
+            "menu_text": "Change climate control settings",
+            "msg": "You activate the uniform's heating mode.",
+            "need_charges": 1,
+            "need_charges_msg": "\u30e1\u30a4\u30c9\u670d\u306e\u96fb\u529b\u304c\u4e0d\u8db3\u3057\u3066\u3044\u307e\u3059\u3002",
+            "target": "kawaii_maid_dress_lss1",
+            "type": "transform"
+        },
+        "volume": "9500 ml",
+        "warmth": 5,
+        "weight": "4400 g"
+    },
+    {
+        "copy-from": "kawaii_maid_dress_lss",
+        "id": "kawaii_maid_dress_lss1",
+        "name": "Cute Maid Uniform LSS-PRO (warming)",
+        "power_draw": 7500,
+        "repairs_like": "kawaii_maid_dress_lss",
+        "revert_to": "kawaii_maid_dress_lss",
+        "type": "TOOL_ARMOR",
+        "use_action": {
+            "active": true,
+            "menu_text": "Change climate control settings",
+            "msg": "You activate the uniform's cooling mode.",
+            "need_charges": 1,
+            "need_charges_msg": "\u30e1\u30a4\u30c9\u670d\u306e\u96fb\u529b\u304c\u4e0d\u8db3\u3057\u3066\u3044\u307e\u3059\u3002",
+            "target": "kawaii_maid_dress_lss2",
+            "type": "transform"
+        },
+        "warmth": 50
+    },
+    {
+        "copy-from": "kawaii_maid_dress_lss",
+        "emits": [
+            "emit_cold_air_weak_stream"
+        ],
+        "id": "kawaii_maid_dress_lss2",
+        "name": "Cute Maid Uniform LSS-PRO (cooling)",
+        "power_draw": 7500,
+        "repairs_like": "kawaii_maid_dress_lss",
+        "revert_to": "kawaii_maid_dress_lss",
+        "type": "TOOL_ARMOR",
+        "use_action": {
+            "menu_text": "Change climate control settings",
+            "msg": "You turn off the uniform's climate control systems.",
+            "target": "kawaii_maid_dress_lss",
+            "type": "transform"
+        }
+    },
+    {
+        "armor_data": {
+            "coverage": 25,
+            "covers": [
+                "head"
+            ]
+        },
+        "category": "armor",
+        "charges_per_use": 1,
+        "color": "white",
+        "description": "One of the most important parts of the maid unifrom is the headdress. This one contains an electrical thermal system powedered using batteries. It lets you feel like a maid despite how it looks.",
+        "encumbrance": 2,
+        "flags": [
+            "VARSIZE",
+            "FANCY",
+            "WATERPROOF",
+            "RAINPROOF",
+            "SKINTIGHT"
+        ],
+        "id": "kawaii_maid_hat_thermal_off",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 3,
+        "name": "Cute Thermal Maid Headdress (off)",
+        "pocket_data": [
+            {
+                "holster": true,
+                "item_restriction": [
+                    "medium_battery_cell",
+                    "medium_plus_battery_cell",
+                    "medium_atomic_battery_cell",
+                    "medium_disposable_cell"
+                ],
+                "max_contains_volume": "20 L",
+                "max_contains_weight": "20 kg",
+                "pocket_type": "MAGAZINE_WELL"
+            }
+        ],
+        "price": 25000,
+        "symbol": "[",
+        "type": "TOOL_ARMOR",
+        "use_action": {
+            "active": true,
+            "menu_text": "Activate heater",
+            "msg": "You activate the headdress' heating systems",
+            "need_charges": 1,
+            "need_charges_msg": "%s\u306e\u30d0\u30c3\u30c6\u30ea\u30fc\u304c\u4e0d\u8db3\u3057\u3066\u3044\u307e\u3059\u3002",
+            "target": "kawaii_maid_hat_thermal_on",
+            "type": "transform"
+        },
+        "volume": "250 ml",
+        "warmth": 10,
+        "weight": 15
+    },
+    {
+        "category": "armor",
+        "copy-from": "kawaii_maid_hat_thermal_off",
+        "description": "One of the most important parts of the maid unifrom is the headdress. This one contains an electrical thermal system powedered using batteries. It lets you feel like a maid despite how it looks.",
+        "id": "kawaii_maid_hat_thermal_on",
+        "name": "Cute Thermal Maid Headdress (on)",
+        "power_draw": 7500,
+        "repairs_like": "kawaii_maid_hat_thermal_off",
+        "type": "TOOL_ARMOR",
+        "use_action": {
+            "menu_text": "Deactivate heater",
+            "msg": "You deactivate the headdress' heating systems",
+            "target": "kawaii_maid_hat_thermal_off",
+            "type": "transform"
+        },
+        "warmth": 80
+    },
+    {
+        "armor_data": {
+            "coverage": 100,
+            "covers": [
+                "head"
+            ]
+        },
+        "category": "armor",
+        "charges_per_use": 1,
+        "color": "white",
+        "description": "A maid must maintain her pride and attends to her duties, no matter how harsh the situation or environment. The headdress is not just a piece of the uniform, it's a symbol of a maid's pride.",
+        "encumbrance": 5,
+        "environmental_protection": 5,
+        "flags": [
+            "VARSIZE",
+            "FANCY",
+            "WATERPROOF",
+            "RAINPROOF",
+            "SKINTIGHT",
+            "STURDY"
+        ],
+        "id": "kawaii_maid_hat_lss",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 5,
+        "name": "Cute Maid Headdress LSS-PRO (off)",
+        "pocket_data": [
+            {
+                "holster": true,
+                "item_restriction": [
+                    "medium_battery_cell",
+                    "medium_plus_battery_cell",
+                    "medium_atomic_battery_cell",
+                    "medium_disposable_cell"
+                ],
+                "max_contains_volume": "20 L",
+                "max_contains_weight": "20 kg",
+                "pocket_type": "MAGAZINE_WELL"
+            }
+        ],
+        "price": 55000,
+        "symbol": "[",
+        "techniques": [
+            "WBLOCK_1"
+        ],
+        "type": "TOOL_ARMOR",
+        "use_action": {
+            "active": true,
+            "menu_text": "Change climate control settings",
+            "msg": "You activate the headdress' heating mode.",
+            "need_charges": 1,
+            "need_charges_msg": "\u30db\u30ef\u30a4\u30c8\u30d6\u30ea\u30e0\u306e\u30d0\u30c3\u30c6\u30ea\u30fc\u304c\u4e0d\u8db3\u3057\u3066\u3044\u307e\u3059\u3002",
+            "target": "kawaii_maid_hat_lss1",
+            "type": "transform"
+        },
+        "volume": "250 ml",
+        "warmth": 20,
+        "weight": 15
+    },
+    {
+        "copy-from": "kawaii_maid_hat_lss",
+        "id": "kawaii_maid_hat_lss1",
+        "name": "Cute Maid Headdress LSS-PRO (warming)",
+        "power_draw": 7500,
+        "repairs_like": "kawaii_maid_hat_lss",
+        "revert_to": "kawaii_maid_hat_lss",
+        "type": "TOOL_ARMOR",
+        "use_action": {
+            "active": true,
+            "menu_text": "Change climate control settings",
+            "msg": "You activate the headdress' cooling mode.",
+            "need_charges": 1,
+            "need_charges_msg": "\u30db\u30ef\u30a4\u30c8\u30d6\u30ea\u30e0\u306e\u30d0\u30c3\u30c6\u30ea\u30fc\u304c\u4e0d\u8db3\u3057\u3066\u3044\u307e\u3059\u3002",
+            "target": "kawaii_maid_hat_lss2",
+            "type": "transform"
+        },
+        "warmth": 50
+    },
+    {
+        "copy-from": "kawaii_maid_hat_lss",
+        "id": "kawaii_maid_hat_lss2",
+        "name": "Cute Maid Headdress LSS-PRO (cooling)",
+        "power_draw": 7500,
+        "repairs_like": "kawaii_maid_hat_lss",
+        "revert_to": "kawaii_maid_hat_lss",
+        "type": "TOOL_ARMOR",
+        "use_action": {
+            "menu_text": "Change climate control settings",
+            "msg": "You deactivate the headdress' climate control.",
+            "target": "kawaii_maid_hat_lss",
+            "type": "transform"
+        },
+        "warmth": 0
+    },
+    {
+        "ammo": "battery",
+        "armor_data": {
+            "coverage": 75,
+            "covers": [
+                "eyes"
+            ]
+        },
+        "color": "cyan",
+        "description": "These advanced glasses are not only capable of functioning as night vision or infared scanners, but protects against bright flashes, can withstand chemical corrosion, and can even completely block light for sleeping in bright places.",
+        "environmental_protection": 6,
+        "flags": [
+            "WATER_FRIENDLY",
+            "FANCY",
+            "FIX_NEARSIGHT",
+            "FIX_FARSIGHT",
+            "SUN_GLASSES",
+            "FLASH_PROTECTION"
+        ],
+        "id": "kawaii_hitec_megane",
+        "material": [
+            "glass",
+            "plastic"
+        ],
+        "material_thickness": 2,
+        "name": "Cute High-Tech Glasses (off)",
+        "pocket_data": [
+            {
+                "holster": true,
+                "item_restriction": [
+                    "light_plus_battery_cell",
+                    "light_minus_battery_cell",
+                    "light_battery_cell",
+                    "light_atomic_battery_cell",
+                    "light_minus_atomic_battery_cell",
+                    "light_minus_disposable_cell",
+                    "light_disposable_cell"
+                ],
+                "max_contains_volume": "20 L",
+                "max_contains_weight": "20 kg",
+                "pocket_type": "MAGAZINE_WELL",
+                "rigid": true
+            }
+        ],
+        "price": 250000,
+        "qualities": [
+            [
+                "GLARE",
+                2
+            ]
+        ],
+        "symbol": "[",
+        "type": "TOOL_ARMOR",
+        "use_action": {
+            "active": true,
+            "menu_text": "Toggle vision mode",
+            "msg": "You switch the glasses to night vision mode.",
+            "need_charges": 1,
+            "need_charges_msg": "%s\u306e\u30d0\u30c3\u30c6\u30ea\u30fc\u304c\u4e0d\u8db3\u3057\u3066\u3044\u307e\u3059\u3002",
+            "target": "kawaii_hitec_megane_nv",
+            "type": "transform"
+        },
+        "volume": "250 ml",
+        "weight": 90
+    },
+    {
+        "copy-from": "kawaii_hitec_megane",
+        "flags": [
+            "WATER_FRIENDLY",
+            "FANCY",
+            "FIX_NEARSIGHT",
+            "FIX_FARSIGHT",
+            "GNV_EFFECT"
+        ],
+        "id": "kawaii_hitec_megane_nv",
+        "name": "Cute High-Tech Glasses (NV)",
+        "power_draw": 15000,
+        "repairs_like": "kawaii_hitec_megane",
+        "revert_to": "kawaii_hitec_megane",
+        "type": "TOOL_ARMOR",
+        "use_action": {
+            "active": true,
+            "menu_text": "Toggle vision mode",
+            "msg": "You switch the glasses to infrared mode.",
+            "need_charges": 1,
+            "need_charges_msg": "%s\u306e\u30d0\u30c3\u30c6\u30ea\u30fc\u304c\u4e0d\u8db3\u3057\u3066\u3044\u307e\u3059\u3002",
+            "target": "kawaii_hitec_megane_ir",
+            "type": "transform"
+        }
+    },
+    {
+        "copy-from": "kawaii_hitec_megane",
+        "flags": [
+            "WATER_FRIENDLY",
+            "FANCY",
+            "FIX_NEARSIGHT",
+            "FIX_FARSIGHT",
+            "IR_EFFECT"
+        ],
+        "id": "kawaii_hitec_megane_ir",
+        "name": "Cute High-Tech Glasses (IR)",
+        "power_draw": 15000,
+        "repairs_like": "kawaii_hitec_megane",
+        "revert_to": "kawaii_hitec_megane",
+        "type": "TOOL_ARMOR",
+        "use_action": {
+            "menu_text": "Toggle vision mode",
+            "msg": "You switch the glasses to blinder mode.",
+            "target": "kawaii_hitec_megane_blind",
+            "type": "transform"
+        }
+    },
+    {
+        "copy-from": "kawaii_hitec_megane",
+        "flags": [
+            "WATER_FRIENDLY",
+            "FANCY",
+            "FIX_NEARSIGHT",
+            "FIX_FARSIGHT",
+            "BLIND"
+        ],
+        "id": "kawaii_hitec_megane_blind",
+        "name": "Cute High-Tech Glasses (Blind)",
+        "repairs_like": "kawaii_hitec_megane",
+        "type": "TOOL_ARMOR",
+        "use_action": {
+            "menu_text": "Toggle vision mode",
+            "msg": "You return the glasses to its default mode.",
+            "target": "kawaii_hitec_megane",
+            "type": "transform"
+        }
+    },
+    {
+        "armor_data": {
+            "coverage": 85,
+            "covers": [
+                "mouth"
+            ]
+        },
+        "category": "clothing",
+        "color": "light_gray",
+        "description": "A scarf with a cute pattern.",
+        "encumbrance": 4,
+        "environmental_protection": 3,
+        "flags": [
+            "OUTER",
+            "FANCY"
+        ],
+        "id": "kawaii_scarf",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "Cute Fashionable Scarf",
+        "price": 1000,
+        "symbol": "[",
+        "type": "TOOL_ARMOR",
+        "use_action": {
+            "menu_text": "Adjust scarf",
+            "msg": "You loosen the scarf.",
+            "target": "kawaii_scarf_loose",
+            "type": "transform"
+        },
+        "volume": "750 ml",
+        "warmth": 30,
+        "weight": "100 g"
+    },
+    {
+        "armor_data": {
+            "coverage": 45
+        },
+        "category": "clothing",
+        "copy-from": "kawaii_scarf",
+        "description": "A scarf with a cute pattern.",
+        "encumbrance": 2,
+        "flags": [
+            "OUTER",
+            "ALLOWS_NATURAL_ATTACKS",
+            "FANCY"
+        ],
+        "id": "kawaii_scarf_loose",
+        "name": "Cute Fashionable Scarf (loose)",
+        "revert_to": "kawaii_scarf",
+        "type": "TOOL_ARMOR",
+        "use_action": {
+            "menu_text": "Adjust scarf",
+            "msg": "You pull the scarf tighter around you.",
+            "target": "kawaii_scarf_invisible",
+            "type": "transform"
+        },
+        "warmth": 15
+    },
+    {
+        "armor_data": {
+            "coverage": 25,
+            "covers": [
+                "mouth"
+            ]
+        },
+        "category": "clothing",
+        "color": "light_gray",
+        "description": "\u304b\u308f\u3044\u3044\u67c4\u7269\u306e\u30b9\u30ab\u30fc\u30d5\u3067\u3059\u304c\u3001\u895f\u5143\u306b\u3057\u307e\u3044\u8fbc\u3093\u3067\u898b\u3048\u306a\u3044\u3088\u3046\u306b\u3057\u3066\u3044\u307e\u3059",
+        "encumbrance": 4,
+        "environmental_protection": 3,
+        "flags": [
+            "OUTER",
+            "FANCY"
+        ],
+        "id": "kawaii_scarf_invisible",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": "\u304a\u3057\u3083\u308c\u30b9\u30ab\u30fc\u30d5(\u3057\u307e\u3044\u8fbc\u307f)[kawaii]",
+        "price": 1000,
+        "symbol": "[",
+        "type": "TOOL_ARMOR",
+        "use_action": {
+            "menu_text": "\u30b9\u30ab\u30fc\u30d5\u3092\u5dfb\u304d\u76f4\u3059",
+            "msg": "\u30b9\u30ab\u30fc\u30d5\u3092\u3057\u3063\u304b\u308a\u5dfb\u304d\u76f4\u3057\u307e\u3057\u305f\u3002",
+            "target": "kawaii_scarf",
+            "type": "transform"
+        },
+        "volume": "750 ml",
+        "warmth": 10,
+        "weight": "100 g"
+    },
+    {
+        "//": "EX\u30ed\u30f3\u30b0\u30b9\u30ab\u30fc\u30c8\u7248\u306e\u8ffd\u52a0",
+        "copy-from": "kawaii_maid_dress_ex",
+        "id": "kawaii_maid_dress_ex_long",
+        "looks_like": "kawaii_maid_dress_long",
+        "name": "\u30e1\u30a4\u30c9\u670dEx(\u30ed\u30f3\u30b0)(\u901a\u6c17\u5f62\u614b)[kawaii]",
+        "type": "TOOL_ARMOR",
+        "use_action": {
+            "menu_text": "\u4fdd\u6e29\u5f62\u614b\u306b\u5e03\u3092\u7d44\u307f\u66ff\u3048\u308b",
+            "msg": "\u4fdd\u6e29\u5f62\u614b\u306b\u7d44\u307f\u66ff\u3048\u307e\u3057\u305f\u3002",
+            "target": "kawaii_maid_dress_ex_long1",
+            "type": "transform"
+        }
+    },
+    {
+        "//": "EX\u30ed\u30f3\u30b0\u30b9\u30ab\u30fc\u30c8\u7248\u306e\u8ffd\u52a0",
+        "copy-from": "kawaii_maid_dress_ex2",
+        "id": "kawaii_maid_dress_ex_long1",
+        "looks_like": "kawaii_maid_dress_long",
+        "name": "\u30e1\u30a4\u30c9\u670dEx(\u30ed\u30f3\u30b0)(\u4fdd\u6e29\u5f62\u614b)[kawaii]",
+        "repairs_like": "kawaii_maid_dress_ex_long",
+        "type": "TOOL_ARMOR",
+        "use_action": {
+            "menu_text": "\u901a\u6c17\u5f62\u614b\u306b\u5e03\u3092\u7d44\u307f\u66ff\u3048\u308b",
+            "msg": "\u901a\u6c17\u5f62\u614b\u306b\u7d44\u307f\u66ff\u3048\u307e\u3057\u305f\u3002",
+            "target": "kawaii_maid_dress_ex_long",
+            "type": "transform"
+        }
+    },
+    {
+        "//": "LSS\u30ed\u30f3\u30b0\u30b9\u30ab\u30fc\u30c8\u7248\u306e\u8ffd\u52a0",
+        "copy-from": "kawaii_maid_dress_lss",
+        "id": "kawaii_maid_dress_lss_long",
+        "looks_like": "kawaii_maid_dress_long",
+        "name": "\u30e1\u30a4\u30c9\u670dLSS-PRO(\u30ed\u30f3\u30b0)(off)[kawaii]",
+        "type": "TOOL_ARMOR",
+        "use_action": {
+            "active": true,
+            "menu_text": "\u4fdd\u6e29\u306b\u5207\u308a\u66ff\u3048\u308b",
+            "msg": "\u30e1\u30a4\u30c9\u670d\u306e\u52d5\u4f5c\u30e2\u30fc\u30c9\u3092\u4fdd\u6e29\u306b\u5207\u308a\u66ff\u3048\u307e\u3057\u305f\u3002",
+            "need_charges": 1,
+            "need_charges_msg": "\u30e1\u30a4\u30c9\u670d\u306e\u96fb\u529b\u304c\u4e0d\u8db3\u3057\u3066\u3044\u307e\u3059\u3002",
+            "target": "kawaii_maid_dress_lss_long1",
+            "type": "transform"
+        }
+    },
+    {
+        "//": "LSS\u30ed\u30f3\u30b0\u30b9\u30ab\u30fc\u30c8\u7248\u306e\u8ffd\u52a0",
+        "copy-from": "kawaii_maid_dress_lss1",
+        "id": "kawaii_maid_dress_lss_long1",
+        "looks_like": "kawaii_maid_dress_long",
+        "name": "\u30e1\u30a4\u30c9\u670dLSS-PRO(\u30ed\u30f3\u30b0)(\u4fdd\u6e29)[kawaii]",
+        "repairs_like": "kawaii_maid_dress_lss_long",
+        "type": "TOOL_ARMOR",
+        "use_action": {
+            "active": true,
+            "menu_text": "\u7a7a\u51b7\u306b\u5207\u308a\u66ff\u3048\u308b",
+            "msg": "\u30e1\u30a4\u30c9\u670d\u306e\u52d5\u4f5c\u30e2\u30fc\u30c9\u3092\u7a7a\u51b7\u306b\u5207\u308a\u66ff\u3048\u307e\u3057\u305f\u3002",
+            "need_charges": 1,
+            "need_charges_msg": "\u30e1\u30a4\u30c9\u670d\u306e\u96fb\u529b\u304c\u4e0d\u8db3\u3057\u3066\u3044\u307e\u3059\u3002",
+            "target": "kawaii_maid_dress_lss_long2",
+            "type": "transform"
+        }
+    },
+    {
+        "//": "LSS\u30ed\u30f3\u30b0\u30b9\u30ab\u30fc\u30c8\u7248\u306e\u8ffd\u52a0",
+        "copy-from": "kawaii_maid_dress_lss2",
+        "id": "kawaii_maid_dress_lss_long2",
+        "looks_like": "kawaii_maid_dress_long",
+        "name": "\u30e1\u30a4\u30c9\u670dLSS-PRO(\u30ed\u30f3\u30b0)(\u7a7a\u51b7)[kawaii]",
+        "repairs_like": "kawaii_maid_dress_lss_long",
+        "type": "TOOL_ARMOR",
+        "use_action": {
+            "menu_text": "\u96fb\u6e90\u3092off\u306b\u3059\u308b",
+            "msg": "\u30e1\u30a4\u30c9\u670d\u306e\u96fb\u6e90\u3092off\u306b\u3057\u307e\u3057\u305f\u3002",
+            "target": "kawaii_maid_dress_lss_long",
+            "type": "transform"
+        }
+    },
+    {
+        "ammo": [
+            "battery"
+        ],
+        "category": "clothing",
+        "color": "dark_gray",
+        "description": "A shiny black cat tail made out of leather. Whenever you walk, it sways back and forth. You can turn it on for extra enjoyment.",
+        "flags": [
+            "FANCY"
+        ],
+        "id": "leather_cat_tail_biv",
+        "initial_charges": 100,
+        "material": [
+            "leather",
+            "plastic"
+        ],
+        "material_thickness": 0,
+        "max_charges": 100,
+        "name": {
+            "str": "leather cat tail (vibrator)"
+        },
+        "price": 2500,
+        "symbol": "s",
+        "type": "TOOL_ARMOR",
+        "use_action": "VIBE",
+        "volume": "250 ml",
+        "weight": "100 g"
+    },
+    {
+        "ammo": [
+            "battery"
+        ],
+        "category": "clothing",
+        "color": "brown",
+        "description": "A brown soft and furry cat tail. Whenever you walk, it sways back and forth. You can turn it on for extra enjoyment.",
+        "flags": [
+            "FANCY"
+        ],
+        "id": "fur_cat_tail_biv",
+        "initial_charges": 100,
+        "material": [
+            "fur",
+            "plastic"
+        ],
+        "material_thickness": 0,
+        "max_charges": 100,
+        "name": {
+            "str": "furred cat tail (vibrator)"
+        },
+        "price": 1000,
+        "symbol": "s",
+        "type": "TOOL_ARMOR",
+        "use_action": "VIBE",
+        "volume": "250 ml",
+        "weight": "100 g"
+    },
+    {
+        "ammo": [
+            "blob_gohan"
+        ],
+        "category": "clothing",
+        "color": "red",
+        "description": "A blob shaped like the tail of a cat that has been made docile. Whenever you walk, it sways back and forth. Make sure to feed your new blob friend!",
+        "flags": [
+            "FANCY"
+        ],
+        "id": "blob_cat_tail",
+        "initial_charges": 100,
+        "material": [
+            "flesh"
+        ],
+        "material_thickness": 0,
+        "max_charges": 100,
+        "name": {
+            "str": "blob cat tail"
+        },
+        "price": 1000,
+        "symbol": "s",
+        "type": "TOOL_ARMOR",
+        "use_action": "VIBE",
+        "volume": "250 ml",
+        "weight": "100 g"
+    },
+    {
+        "ammo": [
+            "maid_point"
+        ],
+        "armor_data": {
+            "coverage": 65,
+            "covers": [
+                "torso",
+                "head",
+                "arm_l",
+                "arm_r",
+                "leg_l",
+                "leg_r"
+            ]
+        },
+        "category": "clothing",
+        "charges_per_use": 50,
+        "color": "green",
+        "description": "An elegant mantle to keep you warm when going outside. Use it to turn invisible. Consumes maid points.",
+        "encumbrance": 10,
+        "environmental_protection": 3,
+        "flags": [
+            "OVERSIZE",
+            "HOOD",
+            "OUTER",
+            "VARSIZE"
+        ],
+        "id": "maid_cloak_off",
+        "initial_charges": 100,
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 2,
+        "max_charges": 100,
+        "name": {
+            "str": "maid cloak (off)"
+        },
+        "price": 10700,
+        "symbol": "[",
+        "type": "TOOL_ARMOR",
+        "use_action": {
+            "active": true,
+            "msg": "You take a deep breath... And become invisible.",
+            "need_charges": 100,
+            "need_charges_msg": "Not enough maid points!",
+            "target": "maid_cloak_on",
+            "type": "transform"
+        },
+        "volume": "3000 ml",
+        "warmth": 30,
+        "weight": "1175 g"
+    },
+    {
+        "ammo": [
+            "maid_point"
+        ],
+        "armor_data": {
+            "coverage": 65,
+            "covers": [
+                "torso",
+                "head",
+                "arm_l",
+                "arm_r",
+                "leg_l",
+                "leg_r"
+            ]
+        },
+        "category": "clothing",
+        "color": "green",
+        "description": "An elegant mantle to keep you warm when going outside. Use it to turn visible. It is currently on and consuming maid points.",
+        "encumbrance": 10,
+        "environmental_protection": 3,
+        "flags": [
+            "OVERSIZE",
+            "HOOD",
+            "OUTER",
+            "VARSIZE",
+            "NO_RELOAD"
+        ],
+        "id": "maid_cloak_on",
+        "initial_charges": 50,
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 2,
+        "max_charges": 100,
+        "name": {
+            "str": "maid cloak (on)"
+        },
+        "price": 10700,
+        "revert_to": "maid_cloak_off",
+        "symbol": "[",
+        "turns_per_charge": 1,
+        "type": "TOOL_ARMOR",
+        "use_action": {
+            "msg": "You take a deep breath... And become visible again.",
+            "need_charges": 0,
+            "target": "maid_cloak_off",
+            "type": "transform"
+        },
+        "volume": "3000 ml",
+        "warmth": 30,
+        "weight": "1175 g"
+    },
+    {
+        "armor_data": {
+            "coverage": 95,
+            "covers": [
+                "torso",
+                "arm_l",
+                "arm_r",
+                "leg_l",
+                "leg_r"
+            ]
+        },
+        "category": "clothing",
+        "color": "black",
+        "description": "A classic maid outfit with a white apron, frills and a black one piece. It has some storage space thanks to the apron and side pockets, including space for throwing knives. Since it comes with bloomers, you can take off your underwear and not feel embarrassed about it!",
+        "encumbrance": 6,
+        "environmental_protection": 1,
+        "flags": [
+            "VARSIZE",
+            "FANCY",
+            "OVERSIZE",
+            "POCKETS"
+        ],
+        "id": "maid_dress",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 4,
+        "max_encumbrance": 11,
+        "name": {
+            "str": "Victorian maid dress",
+            "str_pl": "Victorian maid dresses"
+        },
+        "pocket_data": [
+            {
+                "max_contains_volume": "1 L",
+                "max_contains_weight": "3 kg",
+                "max_item_length": "10 cm",
+                "moves": 75,
+                "pocket_type": "CONTAINER"
+            },
+            {
+                "max_contains_volume": "1 L",
+                "max_contains_weight": "3 kg",
+                "max_item_length": "10 cm",
+                "moves": 75,
+                "pocket_type": "CONTAINER"
+            },
+            {
+                "max_contains_volume": "10 L",
+                "max_contains_weight": "10 kg",
+                "max_item_length": "30 cm",
+                "moves": 120,
+                "pocket_type": "CONTAINER"
+            }
+        ],
+        "price": 5000,
+        "symbol": "[",
+        "to_hit": 0,
+        "type": "TOOL_ARMOR",
+        "volume": "4250 ml",
+        "warmth": 20,
+        "weight": "800 g"
+    },
+    {
+        "armor_data": {
+            "coverage": 70,
+            "covers": [
+                "torso",
+                "arm_l",
+                "arm_r",
+                "leg_l",
+                "leg_r"
+            ]
+        },
+        "category": "clothing",
+        "color": "blue",
+        "description": "A French maid dress in the modern style, black with a frilly white apron. Doesn't cover much past the thigh or shoulder.",
+        "encumbrance": 5,
+        "flags": [
+            "VARSIZE",
+            "SUPER_FANCY",
+            "OVERSIZE"
+        ],
+        "id": "maid_dress_french",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "max_encumbrance": 10,
+        "name": {
+            "str": "French maid dress",
+            "str_pl": "French maid dresses"
+        },
+        "pocket_data": [
+            {
+                "max_contains_volume": "2 L",
+                "max_contains_weight": "5 kg",
+                "max_item_length": "15 cm",
+                "moves": 120,
+                "pocket_type": "CONTAINER"
+            }
+        ],
+        "price": 5000,
+        "symbol": "[",
+        "type": "TOOL_ARMOR",
+        "volume": "250 ml",
+        "warmth": 5,
+        "weight": "100 g"
+    },
+    {
+        "armor_data": {
+            "coverage": 0,
+            "covers": [
+                "torso",
+                "arm_l",
+                "arm_r",
+                "leg_l",
+                "leg_r"
+            ]
+        },
+        "category": "clothing",
+        "color": "blue",
+        "description": "A French maid dress in the modern style, black with a frilly white apron. Doesn't cover much past the thigh or shoulder. Something seems off about it.",
+        "encumbrance": 5,
+        "flags": [
+            "VARSIZE",
+            "SUPER_FANCY",
+            "OVERSIZE",
+            "STURDY"
+        ],
+        "id": "maid_dress_french_shoggoth",
+        "looks_like": "maid_dress_french",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "max_encumbrance": 10,
+        "name": {
+            "str": "strange French maid dress",
+            "str_pl": "strange French maid dresses"
+        },
+        "price": 5000,
+        "symbol": "[",
+        "type": "TOOL_ARMOR",
+        "volume": "250 ml",
+        "warmth": 20,
+        "weight": "100 g"
+    },
+    {
+        "armor_data": {
+            "coverage": 100,
+            "covers": [
+                "leg_l",
+                "leg_r",
+                "head",
+                "torso",
+                "arm_l",
+                "arm_r"
+            ]
+        },
+        "category": "armor",
+        "color": "black",
+        "description": "A Victorian maid dress tailored specifically for post-cataclysm maids. The kevlar weave provides modest protection, but makes it somewhat harder to move in.",
+        "encumbrance": 8,
+        "environmental_protection": 5,
+        "flags": [
+            "VARSIZE",
+            "WATERPROOF",
+            "RAINPROOF",
+            "STURDY",
+            "FANCY",
+            "OVERSIZE",
+            "POCKETS"
+        ],
+        "id": "survivor_maid_dress",
+        "material": [
+            "kevlar_layered",
+            "cotton"
+        ],
+        "material_thickness": 4,
+        "max_encumbrance": 17,
+        "name": {
+            "str": "survivor Victorian maid dress",
+            "str_pl": "survivor Victorian maid dresses"
+        },
+        "pocket_data": [
+            {
+                "max_contains_volume": "1 L",
+                "max_contains_weight": "3 kg",
+                "max_item_length": "10 cm",
+                "moves": 75,
+                "pocket_type": "CONTAINER"
+            },
+            {
+                "max_contains_volume": "1 L",
+                "max_contains_weight": "3 kg",
+                "max_item_length": "10 cm",
+                "moves": 75,
+                "pocket_type": "CONTAINER"
+            },
+            {
+                "max_contains_volume": "10 L",
+                "max_contains_weight": "10 kg",
+                "max_item_length": "30 cm",
+                "moves": 120,
+                "pocket_type": "CONTAINER"
+            }
+        ],
+        "price": 110000,
+        "repairs_like": "lsurvivor_suit",
+        "symbol": "[",
+        "type": "TOOL_ARMOR",
+        "volume": "10500 ml",
+        "warmth": 30,
+        "weight": "2300 g"
+    },
+    {
+        "armor_data": {
+            "coverage": 100,
+            "covers": [
+                "mouth"
+            ]
+        },
+        "category": "clothing",
+        "color": "light_gray",
+        "description": "A very long light cloth scarf, worn over the mouth for warmth.  With the extra length, it's enough to handle nonstandard facial features and accommodate your hands too.  Use it to loosen it if you get too warm.",
+        "environmental_protection": 5,
+        "flags": [
+            "OVERSIZE",
+            "POCKETS",
+            "OUTER",
+            "ALLOWS_NATURAL_ATTACKS"
+        ],
+        "id": "maids_scarf",
+        "material": [
+            "cotton"
+        ],
+        "material_thickness": 1,
+        "name": {
+            "str": "maid's scarf"
+        },
+        "price": 1500,
+        "symbol": "[",
+        "to_hit": -3,
+        "type": "TOOL_ARMOR",
+        "volume": "1 L",
+        "warmth": 20,
+        "weight": "120 g"
+    }
+]
