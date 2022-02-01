@@ -1586,7 +1586,7 @@
                 "max_contains_weight": "50 kg",
                 "moves": 270,
                 "pocket_type": "CONTAINER",
-                "rigid": false
+                "rigid": true
             }
         ],
         "price": 12000,
