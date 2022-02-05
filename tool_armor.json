@@ -623,6 +623,7 @@
         ],
         "category": "clothing",
         "color": "dark_gray",
+        "copy-from": "leather_cat_tail",
         "description": "A shiny black cat tail made out of leather. Whenever you walk, it sways back and forth. You can turn it on for extra enjoyment.",
         "flags": [
             "FANCY"
@@ -638,6 +639,24 @@
         "name": {
             "str": "leather cat tail (vibrator)"
         },
+        "pocket_data": [
+            {
+                "holster": true,
+                "item_restriction": [
+                    "light_plus_battery_cell",
+                    "light_minus_battery_cell",
+                    "light_battery_cell",
+                    "light_atomic_battery_cell",
+                    "light_minus_atomic_battery_cell",
+                    "light_minus_disposable_cell",
+                    "light_disposable_cell"
+                ],
+                "max_contains_volume": "20 L",
+                "max_contains_weight": "20 kg",
+                "pocket_type": "MAGAZINE_WELL",
+                "rigid": true
+            }
+        ],
         "price": 2500,
         "symbol": "s",
         "type": "TOOL_ARMOR",
@@ -651,6 +670,7 @@
         ],
         "category": "clothing",
         "color": "brown",
+        "copy-from": "fur_cat_tail",
         "description": "A brown soft and furry cat tail. Whenever you walk, it sways back and forth. You can turn it on for extra enjoyment.",
         "flags": [
             "FANCY"
@@ -666,6 +686,24 @@
         "name": {
             "str": "furred cat tail (vibrator)"
         },
+        "pocket_data": [
+            {
+                "holster": true,
+                "item_restriction": [
+                    "light_plus_battery_cell",
+                    "light_minus_battery_cell",
+                    "light_battery_cell",
+                    "light_atomic_battery_cell",
+                    "light_minus_atomic_battery_cell",
+                    "light_minus_disposable_cell",
+                    "light_disposable_cell"
+                ],
+                "max_contains_volume": "20 L",
+                "max_contains_weight": "20 kg",
+                "pocket_type": "MAGAZINE_WELL",
+                "rigid": true
+            }
+        ],
         "price": 1000,
         "symbol": "s",
         "type": "TOOL_ARMOR",

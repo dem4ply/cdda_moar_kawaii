@@ -1,0 +1,163 @@
+[
+    {
+        "copy-from": "mon_shoggoth",
+        "death_drops": "mon_shoggoth_death_drops",
+        "id": "mon_shoggoth",
+        "type": "MONSTER"
+    },
+    {
+        "aggression": -10,
+        "armor_bash": 0,
+        "armor_cut": 0,
+        "color": "brown",
+        "death_function": {
+            "corpse_type": "NORMAL"
+        },
+        "default_faction": "player",
+        "description": "A child entrusted to you by the owner of the house you served at. There's a deep feeling of fear in your stomach as you embrace the cataclysm, but protecting this child gives you purpose and makes you feel less alone.",
+        "diff": 2,
+        "dodge": 2,
+        "flags": [
+            "SEES",
+            "HEARS",
+            "SMELLS",
+            "WARM",
+            "GUILT",
+            "BONES"
+        ],
+        "harvest": "human",
+        "hp": 40,
+        "id": "maid_master",
+        "material": [
+            "flesh"
+        ],
+        "melee_cut": 2,
+        "melee_dice": 2,
+        "melee_dice_sides": 4,
+        "melee_skill": 2,
+        "morale": 100,
+        "name": {
+            "str": "master",
+            "str_pl": "masters"
+        },
+        "species": "UNKNOWN",
+        "speed": 130,
+        "symbol": "m",
+        "type": "MONSTER",
+        "vision_day": 30,
+        "vision_night": 3
+    },
+    {
+        "aggression": 10,
+        "anger_triggers": [
+            "FRIEND_ATTACKED"
+        ],
+        "armor_bash": 10,
+        "armor_cut": 10,
+        "color": "white",
+        "death_drops": "mon_little_maid_death_drops",
+        "death_function": {
+            "corpse_type": "NO_CORPSE",
+            "message": "The %s melts away."
+        },
+        "default_faction": "player",
+        "description": "A small maid summoned from a different world. Although difficult to have a conversation with, it seems she had longed to be summoned.",
+        "diff": 2,
+        "dodge": 2,
+        "flags": [
+            "SEES",
+            "SMELLS",
+            "HEARS",
+            "SWIMS",
+            "WARM",
+            "REVIVES",
+            "NOGIB"
+        ],
+        "harvest": "exempt",
+        "hp": 80,
+        "id": "mon_little_maid",
+        "material": [
+            "flesh"
+        ],
+        "melee_cut": 1,
+        "melee_dice": 1,
+        "melee_dice_sides": 1,
+        "melee_skill": 5,
+        "morale": 100,
+        "name": {
+            "str": "little maid"
+        },
+        "special_attacks": [
+            [
+                "PARROT",
+                40
+            ],
+            [
+                "IMPALE",
+                25
+            ]
+        ],
+        "species": "NETHER",
+        "speed": 300,
+        "symbol": "m",
+        "type": "MONSTER",
+        "vision_day": 8,
+        "vision_night": 8
+    },
+    {
+        "aggression": 100,
+        "armor_bash": 0,
+        "armor_cut": 0,
+        "color": "red",
+        "death_function": {
+            "effect": {
+                "hit_self": true,
+                "id": "death_acid"
+            },
+            "message": "The %s's body leaks acid."
+        },
+        "default_faction": "player",
+        "description": "A large living mass of meat made alive by the means of alchemy. The twisted, distorted meat lump has a mouth-like organ like that of a human, where it constantly spews poisonous gas and acidic bodily fluids from, while making unpleasant sounds.",
+        "diff": 2,
+        "dodge": 0,
+        "emit_fields": [
+            "emit_toxic_leak"
+        ],
+        "flags": [
+            "SEES",
+            "HEARS",
+            "SMELLS",
+            "STUMBLES",
+            "WARM",
+            "NO_BREATHE",
+            "ACIDPROOF",
+            "ACID_BLOOD"
+        ],
+        "harvest": "exempt",
+        "hp": 100,
+        "id": "mon_alchemic_golem",
+        "material": [
+            "flesh"
+        ],
+        "melee_cut": 0,
+        "melee_dice": 0,
+        "melee_dice_sides": 0,
+        "melee_skill": 0,
+        "morale": 100,
+        "name": {
+            "str": "alchemic flesh golem (cooked)"
+        },
+        "special_attacks": [
+            [
+                "ACID_BARF",
+                1
+            ]
+        ],
+        "species": "NETHER",
+        "speed": 80,
+        "symbol": "g",
+        "type": "MONSTER",
+        "vision_day": 15,
+        "vision_night": 15
+    }
+]

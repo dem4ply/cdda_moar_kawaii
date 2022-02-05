@@ -30,7 +30,7 @@
             }
         ],
         "name": "Coup de Gr\u00e2ce",
-        "req_buffs": [
+        "required_buffs_all": [
             "maid_pause_bonus"
         ],
         "type": "technique",
@@ -97,7 +97,7 @@
             }
         ],
         "name": "Spurn",
-        "req_buffs": [
+        "required_buffs_all": [
             "maid_pause_bonus"
         ],
         "type": "technique"
@@ -122,7 +122,7 @@
             }
         ],
         "name": "Measured Strike",
-        "req_buffs": [
+        "required_buffs_all": [
             "maid_pause_bonus"
         ],
         "stun_dur": 1,
@@ -167,7 +167,7 @@
             }
         ],
         "name": "Measured Assault",
-        "req_buffs": [
+        "required_buffs_all": [
             "maid_pause_bonus"
         ],
         "type": "technique"
