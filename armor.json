@@ -2090,12 +2090,10 @@
     },
     {
         "color": "white",
-        "coverage": 70,
         "covers": [
             "HEAD"
         ],
         "description": "Kawaii\u5411\u3051\u3042\u307b\u3052\u3067\u3059\u3002\u77e5\u80fd\u304c\u4e0b\u304c\u308a\u305d\u3046\u3067\u3059\u3002(\u4e0b\u304c\u308a\u307e\u305b\u3093)",
-        "encumbrance": 5,
         "flags": [
             "FANCY"
         ],
@@ -2129,11 +2127,6 @@
                 ]
             }
         ],
-        "artifact_data": {
-            "effects_worn": [
-                "AEP_DEX_UP"
-            ]
-        },
         "category": "clothing",
         "color": "brown",
         "description": "Women's servant clothes worn in Japanese cafes a long time ago. Essentially a white apron over a kimono.",

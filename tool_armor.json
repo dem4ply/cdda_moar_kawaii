@@ -810,12 +810,6 @@
                 "encumbrance": 10
             }
         ],
-        "artifact_data": {
-            "effects_worn": [
-                "AEP_INVISIBLE",
-                "AEP_STEALTH"
-            ]
-        },
         "category": "clothing",
         "color": "green",
         "description": "An elegant mantle to keep you warm when going outside. Use it to turn visible. It is currently on and consuming maid points.",
