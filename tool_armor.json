@@ -635,7 +635,6 @@
             "plastic"
         ],
         "material_thickness": 0,
-        "max_charges": 100,
         "name": {
             "str": "leather cat tail (vibrator)"
         },
@@ -682,7 +681,6 @@
             "plastic"
         ],
         "material_thickness": 0,
-        "max_charges": 100,
         "name": {
             "str": "furred cat tail (vibrator)"
         },
