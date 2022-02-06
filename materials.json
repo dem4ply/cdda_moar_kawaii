@@ -1,27 +1,5 @@
 [
     {
-        "acid_resist": 10,
-        "bash_dmg_verb": "dented",
-        "bash_resist": 3,
-        "bullet_resist": 15,
-        "chip_resist": 5,
-        "cut_dmg_verb": "scratched",
-        "cut_resist": 15,
-        "density": 30,
-        "dmg_adj": [
-            "marked",
-            "dented",
-            "smashed",
-            "shattered"
-        ],
-        "elec_resist": 10,
-        "fire_resist": 10,
-        "id": "kawaii_glass",
-        "name": "A&M\u5f37\u5316\u30ac\u30e9\u30b9",
-        "repaired_with": "glass_shard",
-        "type": "material"
-    },
-    {
         "acid_resist": 7,
         "bash_dmg_verb": "dented",
         "bash_resist": 15,
@@ -38,7 +16,7 @@
         ],
         "elec_resist": 0,
         "fire_resist": 5,
-        "id": "kawaii_amsteel",
+        "ident": "kawaii_amsteel",
         "name": "A&M\u30b9\u30c1\u30fc\u30eb",
         "repaired_with": "scrap",
         "type": "material"
@@ -60,7 +38,7 @@
         ],
         "elec_resist": 3,
         "fire_resist": 3,
-        "id": "kawaii_amplastic",
+        "ident": "kawaii_amplastic",
         "name": "A&M\u30d7\u30e9\u30b9\u30c1\u30c3\u30af",
         "repaired_with": "plastic_chunk",
         "type": "material"
@@ -82,7 +60,7 @@
         ],
         "elec_resist": 1000,
         "fire_resist": 1000,
-        "id": "maid",
+        "ident": "maid",
         "name": "maid",
         "type": "material"
     }
