@@ -629,7 +629,6 @@
             "FANCY"
         ],
         "id": "leather_cat_tail_biv",
-        "initial_charges": 100,
         "material": [
             "leather",
             "plastic"
@@ -675,7 +674,6 @@
             "FANCY"
         ],
         "id": "fur_cat_tail_biv",
-        "initial_charges": 100,
         "material": [
             "fur",
             "plastic"
