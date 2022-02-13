@@ -58,29 +58,20 @@
     },
     {
         "category": "other",
-        "color": "dark_gray",
-        "description": "A glass flask containing a piece of meat that seems to be growing. Occasionally the piece of meat pulsates.",
-        "id": "flask_shoggoth",
+        "color": "brown",
+        "description": "This is a doll in the shape of your beloved master, but with an additional 'special attachment.' By using it in a certain (rather embarassing) type of private ritual, you can catalyze your powerful desires towards your beloved master into a usable type of energy.",
+        "id": "maid_bell",
         "material": [
-            "glass",
-            "maid"
+            "cotton"
         ],
         "name": {
-            "str": "flask (shoggoth)",
-            "str_pl": "flasks (shoggoth)"
+            "str": "ceremony doll",
+            "str_pl": "ceremony dolls"
         },
-        "price": 5000,
-        "symbol": "M",
+        "price": 5400,
+        "symbol": "m",
         "type": "GENERIC",
-        "use_action": {
-            "moves": 0,
-            "msg": "The flask is threatening to shatter as the meat keeps growing. Use it again to open it and relieve the pressure.",
-            "not_ready_msg": "The piece of meat pulsates.",
-            "target": "shoggoth_maid",
-            "transform_age": 201600,
-            "type": "delayed_transform"
-        },
-        "volume": "250 ml",
-        "weight": "1200 g"
+        "volume": "750 ml",
+        "weight": "300 g"
     }
 ]

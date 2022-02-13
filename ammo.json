@@ -18,5 +18,42 @@
         "type": "AMMO",
         "volume": "250 ml",
         "weight": "1 g"
+    },
+    {
+        "ammo_type": "assassins_throwing_dagger",
+        "category": "weapons",
+        "color": "light_gray",
+        "count": 4,
+        "cutting": 21,
+        "description": "A nimble blade meant for ranged assassination, but makes an improvised cutlery tool in a pinch. It's very lightweight and silent and can be used on both zombies and games involving apples.",
+        "flags": [
+            "SPEAR",
+            "SHEATH_KNIFE"
+        ],
+        "id": "assassins_throwing_dagger",
+        "material": [
+            "steel",
+            "leather"
+        ],
+        "name": {
+            "str": "assassin's throwing knife"
+        },
+        "price": 9000,
+        "qualities": [
+            [
+                "CUT",
+                1
+            ],
+            [
+                "BUTCHER",
+                10
+            ]
+        ],
+        "stack_size": 4,
+        "symbol": "/",
+        "to_hit": 2,
+        "type": "AMMO",
+        "volume": "1 L",
+        "weight": "750 g"
     }
 ]

@@ -5,164 +5,6 @@
         "components": [
             [
                 [
-                    "kawaii_maid_dress",
-                    1
-                ]
-            ],
-            [
-                [
-                    "rag",
-                    20
-                ]
-            ],
-            [
-                [
-                    "thread",
-                    30
-                ]
-            ],
-            [
-                [
-                    "plastic_chunk",
-                    6
-                ]
-            ],
-            [
-                [
-                    "leather",
-                    12
-                ]
-            ]
-        ],
-        "difficulty": 4,
-        "qualities": [
-            {
-                "id": "SEW",
-                "level": 1
-            }
-        ],
-        "result": "kawaii_maid_dress_ex",
-        "skill_used": "tailor",
-        "skills_required": [
-            "tailor",
-            4
-        ],
-        "subcategory": "CSC_ARMOR_OTHER",
-        "time": 50000,
-        "type": "recipe",
-        "using": [
-            [
-                "filament",
-                200
-            ]
-        ]
-    },
-    {
-        "autolearn": true,
-        "category": "CC_ARMOR",
-        "components": [
-            [
-                [
-                    "rag",
-                    30
-                ]
-            ],
-            [
-                [
-                    "coat_rain",
-                    1
-                ]
-            ],
-            [
-                [
-                    "kevlar",
-                    1
-                ],
-                [
-                    "modularvest",
-                    1
-                ],
-                [
-                    "swat_armor",
-                    1
-                ],
-                [
-                    "kevlar_plate",
-                    24
-                ]
-            ],
-            [
-                [
-                    "element",
-                    6
-                ]
-            ],
-            [
-                [
-                    "cable",
-                    12
-                ]
-            ]
-        ],
-        "difficulty": 9,
-        "qualities": [
-            {
-                "id": "CUT",
-                "level": 1
-            },
-            {
-                "id": "SEW",
-                "level": 1
-            }
-        ],
-        "result": "kawaii_maid_dress_lss",
-        "skill_used": "tailor",
-        "skills_required": [
-            [
-                "tailor",
-                9
-            ],
-            [
-                "electronics",
-                6
-            ]
-        ],
-        "subcategory": "CSC_ARMOR_OTHER",
-        "time": 180000,
-        "tools": [
-            [
-                [
-                    "welder",
-                    28
-                ],
-                [
-                    "welder_crude",
-                    42
-                ],
-                [
-                    "soldering_iron",
-                    42
-                ],
-                [
-                    "toolset",
-                    42
-                ]
-            ]
-        ],
-        "type": "recipe",
-        "using": [
-            [
-                "filament",
-                200
-            ]
-        ]
-    },
-    {
-        "autolearn": true,
-        "category": "CC_ARMOR",
-        "components": [
-            [
-                [
                     "rag",
                     10
                 ]
@@ -2264,112 +2106,6 @@
         ]
     },
     {
-        "//": "EX\u30ce\u30fc\u30de\u30eb\u2192EX\u30ed\u30f3\u30b0\u3078\u306e\u5909\u63db\u30ec\u30b7\u30d4",
-        "autolearn": true,
-        "category": "CC_ARMOR",
-        "components": [
-            [
-                [
-                    "kawaii_maid_dress_ex",
-                    1
-                ]
-            ]
-        ],
-        "difficulty": 4,
-        "result": "kawaii_maid_dress_ex_long",
-        "skill_used": "tailor",
-        "skills_required": [
-            "tailor",
-            4
-        ],
-        "subcategory": "CSC_ARMOR_OTHER",
-        "time": "1 m",
-        "type": "recipe"
-    },
-    {
-        "//": "EX\u30ed\u30f3\u30b0\u2192EX\u30ce\u30fc\u30de\u30eb\u3078\u306e\u5909\u63db\u30ec\u30b7\u30d4",
-        "autolearn": true,
-        "category": "CC_ARMOR",
-        "components": [
-            [
-                [
-                    "kawaii_maid_dress_ex_long",
-                    1
-                ]
-            ]
-        ],
-        "difficulty": 4,
-        "id_suffix": "transform",
-        "result": "kawaii_maid_dress_ex",
-        "skill_used": "tailor",
-        "skills_required": [
-            "tailor",
-            4
-        ],
-        "subcategory": "CSC_ARMOR_OTHER",
-        "time": "1 m",
-        "type": "recipe"
-    },
-    {
-        "//": "LSS\u30ce\u30fc\u30de\u30eb\u2192LSS\u30ed\u30f3\u30b0\u3078\u306e\u5909\u63db\u30ec\u30b7\u30d4",
-        "autolearn": true,
-        "category": "CC_ARMOR",
-        "components": [
-            [
-                [
-                    "kawaii_maid_dress_lss",
-                    1
-                ]
-            ]
-        ],
-        "difficulty": 9,
-        "result": "kawaii_maid_dress_lss_long",
-        "skill_used": "tailor",
-        "skills_required": [
-            [
-                "tailor",
-                9
-            ],
-            [
-                "electronics",
-                6
-            ]
-        ],
-        "subcategory": "CSC_ARMOR_OTHER",
-        "time": "1 m",
-        "type": "recipe"
-    },
-    {
-        "//": "LSS\u30ed\u30f3\u30b0\u2192LSS\u30ce\u30fc\u30de\u30eb\u3078\u306e\u5909\u63db\u30ec\u30b7\u30d4",
-        "autolearn": true,
-        "category": "CC_ARMOR",
-        "components": [
-            [
-                [
-                    "kawaii_maid_dress_lss_long",
-                    1
-                ]
-            ]
-        ],
-        "difficulty": 9,
-        "id_suffix": "transform",
-        "result": "kawaii_maid_dress_lss",
-        "skill_used": "tailor",
-        "skills_required": [
-            [
-                "tailor",
-                9
-            ],
-            [
-                "electronics",
-                6
-            ]
-        ],
-        "subcategory": "CSC_ARMOR_OTHER",
-        "time": "1 m",
-        "type": "recipe"
-    },
-    {
         "autolearn": true,
         "category": "CC_OTHER",
         "components": [
@@ -2668,6 +2404,87 @@
     {
         "activity_level": "NO_EXERCISE",
         "autolearn": true,
+        "category": "CC_WEAPON",
+        "components": [
+            [
+                [
+                    "steel_chunk",
+                    2
+                ],
+                [
+                    "scrap",
+                    6
+                ]
+            ],
+            [
+                [
+                    "leather",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 7,
+        "qualities": [
+            {
+                "amount": 1,
+                "id": "HAMMER",
+                "level": 3
+            }
+        ],
+        "result": "assassins_throwing_dagger",
+        "reversible": false,
+        "skill_used": "fabrication",
+        "skills_required": [
+            "throw",
+            7
+        ],
+        "subcategory": "CSC_WEAPON_RANGED",
+        "time": "240 m",
+        "tools": [
+            [
+                [
+                    "tongs",
+                    -1
+                ]
+            ],
+            [
+                [
+                    "chisel",
+                    -1
+                ]
+            ],
+            [
+                [
+                    "anvil",
+                    -1
+                ]
+            ],
+            [
+                [
+                    "swage",
+                    -1
+                ]
+            ],
+            [
+                [
+                    "forge",
+                    200
+                ],
+                [
+                    "char_forge",
+                    40
+                ],
+                [
+                    "oxy_torch",
+                    40
+                ]
+            ]
+        ],
+        "type": "recipe"
+    },
+    {
+        "activity_level": "NO_EXERCISE",
+        "autolearn": true,
         "category": "CC_ARMOR",
         "components": [
             [
@@ -2730,39 +2547,6 @@
         "type": "recipe"
     },
     {
-        "activity_level": "LIGHT_EXERCISE",
-        "autolearn": true,
-        "category": "CC_ARMOR",
-        "components": [
-            [
-                [
-                    "slime_scrap",
-                    1
-                ]
-            ],
-            [
-                [
-                    "meat",
-                    1
-                ]
-            ]
-        ],
-        "difficulty": 8,
-        "qualities": [
-            {
-                "amount": 1,
-                "id": "CUT",
-                "level": 1
-            }
-        ],
-        "result": "blob_cat_tail",
-        "reversible": false,
-        "skill_used": "cooking",
-        "subcategory": "CSC_ARMOR_OTHER",
-        "time": "400 m",
-        "type": "recipe"
-    },
-    {
         "activity_level": "NO_EXERCISE",
         "autolearn": true,
         "category": "CC_AMMO",
@@ -2792,111 +2576,6 @@
         "skill_used": "cooking",
         "subcategory": "CSC_AMMO_OTHER",
         "time": "1 m",
-        "type": "recipe"
-    },
-    {
-        "activity_level": "LIGHT_EXERCISE",
-        "autolearn": false,
-        "book_learn": [
-            [
-                "book_shoggoth",
-                9
-            ]
-        ],
-        "category": "CC_OTHER",
-        "components": [
-            [
-                [
-                    "meat_tainted",
-                    1
-                ]
-            ],
-            [
-                [
-                    "flask_glass",
-                    1
-                ]
-            ],
-            [
-                [
-                    "blood",
-                    10
-                ]
-            ],
-            [
-                [
-                    "maid_point",
-                    4000
-                ]
-            ],
-            [
-                [
-                    "maid_dress",
-                    1
-                ]
-            ]
-        ],
-        "difficulty": 9,
-        "id_suffix": "from_tainted_meat",
-        "result": "flask_shoggoth",
-        "reversible": false,
-        "skill_used": "cooking",
-        "subcategory": "CSC_OTHER_OTHER",
-        "time": "180 m",
-        "tools": [
-            [
-                [
-                    "chemistry_set",
-                    5
-                ]
-            ]
-        ],
-        "type": "recipe"
-    },
-    {
-        "activity_level": "LIGHT_EXERCISE",
-        "autolearn": false,
-        "book_learn": [
-            [
-                "book_shoggoth",
-                9
-            ]
-        ],
-        "category": "CC_OTHER",
-        "components": [
-            [
-                [
-                    "meat_shoggoth",
-                    2
-                ]
-            ],
-            [
-                [
-                    "flask_glass",
-                    1
-                ]
-            ],
-            [
-                [
-                    "blood",
-                    10
-                ]
-            ]
-        ],
-        "difficulty": 7,
-        "result": "flask_shoggoth",
-        "reversible": false,
-        "skill_used": "cooking",
-        "subcategory": "CSC_OTHER_OTHER",
-        "time": "30 m",
-        "tools": [
-            [
-                [
-                    "chemistry_set",
-                    5
-                ]
-            ]
-        ],
         "type": "recipe"
     },
     {
@@ -2956,38 +2635,32 @@
         "type": "recipe"
     },
     {
-        "activity_level": "LIGHT_EXERCISE",
+        "activity_level": "NO_EXERCISE",
         "autolearn": true,
-        "category": "CC_ARMOR",
+        "category": "CC_OTHER",
         "components": [
             [
                 [
                     "rag",
-                    20
-                ],
-                [
-                    "cloak",
-                    1
-                ]
-            ],
-            [
-                [
-                    "maid_point",
-                    1000
+                    12
                 ]
             ]
         ],
-        "difficulty": 8,
-        "result": "maid_cloak_off",
-        "reversible": true,
-        "skill_used": "tailor",
-        "subcategory": "CSC_ARMOR_OTHER",
-        "time": "25 m",
+        "difficulty": 3,
+        "result": "master_doll",
+        "reversible": false,
+        "skill_used": "fabrication",
+        "skills_required": [
+            "tailor",
+            3
+        ],
+        "subcategory": "CSC_OTHER_OTHER",
+        "time": "60 m",
         "tools": [
             [
                 [
                     "sewing_kit",
-                    18
+                    30
                 ]
             ]
         ],
@@ -3000,37 +2673,39 @@
         "components": [
             [
                 [
-                    "knife_steak",
+                    "rag",
+                    12
+                ]
+            ],
+            [
+                [
+                    "vibrator",
                     1
                 ],
                 [
-                    "knife_butcher",
+                    "stick",
                     1
-                ]
-            ],
-            [
-                [
-                    "pot",
-                    1
-                ]
-            ],
-            [
-                [
-                    "maid_point",
-                    100
                 ]
             ]
         ],
-        "difficulty": 4,
-        "result": "maid_mess_kit",
+        "difficulty": 3,
+        "result": "maid_bell",
         "reversible": false,
         "skill_used": "fabrication",
         "skills_required": [
-            "cooking",
-            4
+            "tailor",
+            3
         ],
         "subcategory": "CSC_OTHER_OTHER",
-        "time": "5 m",
+        "time": "60 m",
+        "tools": [
+            [
+                [
+                    "sewing_kit",
+                    30
+                ]
+            ]
+        ],
         "type": "recipe"
     },
     {

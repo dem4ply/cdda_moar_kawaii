@@ -32,28 +32,5 @@
         ],
         "volume": "250 ml",
         "weight": "258 g"
-    },
-    {
-        "category": "tools",
-        "color": "dark_gray",
-        "comestible_type": "MED",
-        "description": "The heart of a shoggoth. You could eat it to master the beast's morphogenic prowess, or you could use it to 'master' the beast in another way.",
-        "id": "meat_shoggoth",
-        "material": [
-            "maid"
-        ],
-        "name": {
-            "str": "shoggoth heart",
-            "str_pl": "shoggoth meats"
-        },
-        "price": 5000,
-        "symbol": ")",
-        "type": "COMESTIBLE",
-        "use_action": {
-            "mutation_category": "SHOGGOTH",
-            "type": "mutagen_iv"
-        },
-        "volume": "250 ml",
-        "weight": "1000 g"
     }
 ]
